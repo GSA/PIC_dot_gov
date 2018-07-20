@@ -1,0 +1,86 @@
+---
+num: -2
+layout: blog
+title: Great Moments Create the Future
+url: great-moments-create-future
+permalink: /content/great-moments-create-future
+meta: "The Power of Story: Give Voice to Data by Shelley Canright"
+metaname: description
+nodetype: blog 
+form: t3QnYw8VZvgcE1C9Jmftdhc91be2RGY9wzle8kqVgxM
+nodenum: 148
+author: mburton
+published: true
+date: 2015-05-13 00:22:20
+day: 13
+month: May
+year: 2015
+paragraphs:
+ - <p><img alt="Final panel at the PIC Summit&#x3a; Power of Story" title="Final panel at the PIC Summit&#x3a; Power of Story" class="media-element file-default" typeof="foaf:Image" src="https://pic.gov/sites/default/files/styles/blog_media/public/Shelley.jpg?itok=67fomPPY" width="600" height="400"></p>
+ - <p>The Power of Story&#x3a; Give Voice to Data by Shelley Canright</p>
+---
+<div class="main__wrapper">
+    <div id="main" class="l-main">
+      <a id="main-content"></a>
+{% assign ind = 2 | divided_by: 2 %}
+{% assign inde = 8 | divided_by: 2 %}
+{% assign inder = 7 | divided_by: 2 %}
+<p>{{ind}}</p>
+<p>{{inde}}</p>
+<p>{{inder}}</p>
+
+    {% for post in paginator.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+
+
+{% for posts in paginator.posts %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+  {% if thecycle == 'odd' %}
+    {% if forloop.index == 1 %}
+    <div>{{posts.urls}} first</div>
+    {% else%}
+    <div>{{posts.urls}} odds</div>
+    {% endif %}
+  {% else %}
+    <div>{{posts.urls}} evens</div>
+  {% endif %}
+{% endfor %}
+
+{% for post in paginator.posts %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ post.date }}</span>
+  </p>
+  <div class="content">
+    
+  </div>
+{% endfor %}
+
+
+
+              <h1>Great Moments Create the Future</h1>
+                        <article about="/content/great-moments-create-future" typeof="sioc:posts foaf:Document" role="article" class="node node--blog view-mode-full node--full node--blog--full">
+    <h2>Great Moments Create the Future</h2>
+
+<h4>Posted May 13, 2015</h4>
+  <p><img alt="Final panel at the PIC Summit: Power of Story" title="Final panel at the PIC Summit: Power of Story" class="media-element file-default" typeof="foaf:Image" src="https://pic.gov/sites/default/files/styles/blog_media/public/Shelley.jpg?itok=67fomPPY" width="600" height="400"></p>
+<p>The Power of Story: Give Voice to Data by Shelley Canright</p>
+<p>As dawn broke over the US Capitol on October 4, 2014, I awoke with anticipation and some anxiety. I recall similar feelings in college at the beginning of a semester or when I accepted my first teaching job. Now, after many years in the same job, I was shaking up the status quo to start anew as a President’s Management Council Fellow on an Interagency Rotation at the Performance Improvement Council (PIC). Though I delved into many assignments at the PIC, my core focus was on analytic storytelling.</p>
+<p>The intended goal around investigating analytic storytelling was to explore a broad idea around the potential value of storytelling tools and techniques in the data-driven world of performance management.&nbsp; While gathering and analyzing meaningful data is a critical step in the performance improvement journey, it takes more to really engage others so that they understand, engage with, and use that data. Story is often the missing piece of the puzzle.</p>
+<p>Our hope was to&nbsp;elevate this understanding before the Federal performance community– to organize and implement a cross-agency summit that blended story with technology, entertainment, design and data. Another key consideration around the design of the summit was to consider methods to amplify the power of story event and reach beyond the confines of a meeting location or building.&nbsp;And certainly the defining moment of the six month rotation for me was in pulling off an event that at various points in the journey seemed a very distant goal!</p>
+<p>My first day and my last day of the rotation were similar with feelings of anticipation and anxiety. You see, the PIC Summit --&nbsp;Give Voice to Data: Power of Story, fell on the last day of the rotation period. Everything that I had learned, experienced, and worked on at the PIC came to a head on this day.&nbsp; Up before dawn and heading to my host agency, so many thoughts tumbled in my head. The build up to the event had been intentional and included social media to build interest.&nbsp;The registration had maxed out with over 100 to be in the room and over 300 remotely participating.</p>
+<p>This was it, a culmination of six months of ‘moments’ captured into a three hour showcase. The most memorable moments leading up to this day happened between myself and three Federal managers who agreed to&nbsp;work with me to craft stories from their complex data. There was so much learned in the process and it was a two way learning process. I had convinced them to put themselves up on the stage, in front of strangers, to share their journey and narrative in a new way that had been totally foreign to them just months before. And now here was their ‘moment’. I wanted this to be ‘great’ on so many levels. There was no turning back.</p>
+<p>At the moment Kate Josephs, PIC Executive Director, stepped up to open the summit, a calm came over me.&nbsp; Anxiety was replaced with excpostsent. The Summit was not simply about a showcase on six months of work, it was much more about creating the future. The goal was to stimulate conversations.&nbsp;Two panels helped to spur the conversations and elicit questions from the audience. One panel explored why narrative + data = better decisions. The second panel brought the presenters back on stage to answer questions and to offer insight on their process for giving voice to their data and building around a story framework.</p>
+<p>You can read more about the event itself and see videos of the speakers and panel discussions here:</p>
+<ul><li>PIC Summit Playlist on GSA YouTube <a href="https://www.youtube.com/playlist?list=PLvdwyPgXnxxVfj0MIbNuH2XCt5noUcFA9">https://www.youtube.com/playlist?list=PLvdwyPgXnxxVfj0MIbNuH2XCt5noUcFA9</a></li>
+<li>Summit storified&nbsp;<a href="https://storify.com/wykipite/the-power-of-story-give-voice-to-data">https://storify.com/wykipite/the-power-of-story-give-voice-to-data</a></li>
+</ul><p>I remain interested in the story arc that might continue to unfold for the PIC and the performance community as new insights on story are gained. I am now back at my home agency. Great moments from this rotation have resulted in stepping stones to a future that I could not have imagined on that October morning. The next chapter of my story is now unfolding.</p>
+  </article>          </div>
+  </div>

@@ -1,0 +1,157 @@
+.page-whldp .pane-fieldable-panels-pane:first-child {
+  background: #03528c url("/sites/all/themes/pic_omega/images/whldp_image_2018.jpg") no-repeat scroll 0px 0px / cover ;
+}
+.page-whldp .pane-fieldable-panels-pane:first-child h1::before, .page-whldp .pane-fieldable-panels-pane:first-child h2::before {
+  border-color: #ffffff;
+}
+.page-whldp .pane-fieldable-panels-pane:first-child h1, .page-whldp .pane-fieldable-panels-pane:first-child h2, .page-whldp .pane-fieldable-panels-pane:first-child h3, .page-whldp .pane-fieldable-panels-pane:first-child p, .page-whldp .pane-fieldable-panels-pane:first-child li, .page-whldp .pane-fieldable-panels-pane:first-child .field--name-field-section-icon{
+  color: #ffffff;
+}
+.page-whldp .l-main,.page-who-we-are-meet-the-team .l-main, .page-who-we-are-the-council .l-main, .page-who-we-are-the-community .l-main, .page-home .l-main, .page-what-we-do .l-main {
+  margin: 0;
+  min-width: 100%;
+  padding: 0;
+}
+.page-whldp .pane-fieldable-panels-pane:nth-child(2) {
+  background: #ee3b16 none repeat scroll 0 0;
+  color: #ffffff;
+}
+.page-whldp .pane-fieldable-panels-pane:nth-child(2) h1::before, .page-whldp .pane-fieldable-panels-pane:nth-child(2) h2::before {
+  border-color: #ffffff;
+}
+.pane-fpid-40 .pane-title {
+  background: rgba(0, 0, 0, 0) url("/sites/all/themes/pic_omega/images/icons/fa-rocket-big.png") no-repeat scroll center top;
+  display: block;
+}
+.pane-fpid-40 .pane-title {
+  padding-top: 140px;
+}
+.pane-fpid-40 li a, p a, .pane-fpid-40 .read-more a {
+  color: #000;
+}
+.view-cohort-list-slider .views-row {
+  text-align: center;
+}
+.view-cohort-list-slider ul.flex-direction-nav a.flex-prev {
+  background-image: url("/sites/all/themes/pic_omega/images/icons/fa-angle-left-black.png");
+  background-repeat: no-repeat;
+}
+.view-cohort-list-slider .flex-direction-nav a.flex-prev {
+  left: 0;
+}
+.view-cohort-list-slider .flex-direction-nav a {
+  color: #060606;
+  top: 34%;
+}
+.view-cohort-list-slider ul.flex-direction-nav a.flex-next {
+  background-image: url("/sites/all/themes/pic_omega/images/icons/fa-angle-right-black.png");
+  background-repeat: no-repeat;
+}
+.view-cohort-list-slider .flex-direction-nav a.flex-next {
+  right: 0;
+}
+.page-who-we-are .pane-fpid-29 p { //added new style
+      font-weight: 400;
+      font-size: 1.4em;
+      text-align: center;
+    }
+.panel-pane .pane-title:before {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 50px;
+    margin: auto;
+    border-bottom: 1px solid white; //changed from black
+    content: ""; }
+.page-who-we-are .pane-fpid-19 p {
+    font-weight: 400;
+    font-size: 1.4em; //changed from 1.6em
+    text-align: center; }
+.page-who-we-are .field--name-field-body{	
+	width: 83.05%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+	}
+.page-who-we-are-the-community .pane-fpid-29 {
+    background: #efefef url(/sites/all/themes/pic_omega/images/community_compressed.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0 80px 0; //updated padding that was 100% from the original css
+}
+.node--goal--full .node-title {
+    position: relative;
+    padding-bottom: 22px;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.2em !important;
+    font-weight: 500;
+    font-size: 2.2em !important;
+    margin-bottom: 30px !important;
+    border-bottom: 1px #fff solid;
+}
+.node__content .fieldable-panels-pane p {
+   font-weight: 400;
+    font-size: 1.4em; //changed from 1.6em }
+.node--goal--full .node__content {
+    position: relative;
+    max-width: 75em; 
+    padding: 20px 20px 0;
+    margin: auto;
+}
+#main > div > div.view-header > article > div > div.pane-content > div > div p{
+text-align : center !important;
+}
+.node--goal--full .node-title::before {
+ border-color: #ffffff;
+}
+.node--goal--full .node-title::before {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 35px;
+    margin: auto;
+    border-bottom: 1px solid white;
+}
+
+.page-what-we-do .our-objective {
+   background: #efefef;
+}
+@media (min-width: 60em){
+.header__wrapper {
+    z-index: 500;
+position:fixed;
+top:0px;
+}
+}
+
+.pane-fieldable-panels-pane .resource-pane{
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 60px 0 80px 0;
+}
+.panel-pane.pane-fieldable-panels-pane.resource-pane {
+    float: none;
+}
+@media (max-width: 414px){
+.node--goal--full .node__content {
+height:645px;
+}
+}
+@media (min-width:30em){
+.node--goal--full .node__content {
+height:400px;
+}
+}
+.achieve-resources {
+    border: 1px solid #F1B828;
+    padding: 10px 15px;
+}
