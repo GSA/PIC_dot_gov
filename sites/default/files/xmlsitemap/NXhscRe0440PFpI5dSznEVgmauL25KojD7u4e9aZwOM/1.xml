@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="//pic.gov/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://pic.gov/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://pic.gov/blog</loc><priority>1.0</priority></url>
+<url><loc>https://pic.gov/content/welcome-picgov</loc><lastmod>2015-03-12T01:02Z</lastmod><changefreq>never</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/great-moments-create-future</loc><lastmod>2015-05-14T00:02Z</lastmod><changefreq>never</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/speaker-series</loc><lastmod>2017-12-18T18:08Z</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/goal-reporting-and-implementation-support</loc><lastmod>2017-12-18T20:07Z</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/white-house-leadership-development-program-1</loc><lastmod>2016-12-21T14:49Z</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/modern-government-management-traits</loc><lastmod>2015-07-29T17:07Z</lastmod><changefreq>never</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/fresh-perspectives-frontlines-federal-it</loc><lastmod>2016-08-15T19:01Z</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/launching-leaders-delivery-network</loc><lastmod>2015-10-16T16:08Z</lastmod><changefreq>never</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/law-enforcement-working-group-pic-book</loc><lastmod>2015-12-08T23:28Z</lastmod><changefreq>never</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/sharpening-facilitation-skills-performance-improvement-council%E2%80%99s-collaboration-studio</loc><lastmod>2016-02-09T18:30Z</lastmod><changefreq>never</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/pmlob-performancegov</loc><lastmod>2017-12-18T20:03Z</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/pushing-boundaries-performance</loc><lastmod>2016-07-28T14:57Z</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/calling-all-fedpreneurs</loc><lastmod>2016-08-10T15:47Z</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/cross-agency-engagements</loc><lastmod>2018-01-11T21:56Z</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/transitions-and-opportunities</loc><lastmod>2017-05-11T20:34Z</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/mapping-customer-experience-centers-medicare-medicaid-services-cms</loc><lastmod>2017-08-22T13:36Z</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/2017-End-of-Year-Report</loc><lastmod>2018-01-22T22:10Z</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/launch-presidents-management-agenda</loc><lastmod>2018-03-29T16:00Z</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/federal-leaders-gather-accelerate-president%E2%80%99s-management-agenda-initiatives</loc><lastmod>2018-04-18T13:33Z</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/white-house-leadership-development-program-alumni-spotlight-jack-schreibman-associate</loc><lastmod>2018-05-10T16:27Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/bruce-hollywood-assistant-deputy-director-joint-strategic-planning-joint-chiefs-staff-brings</loc><lastmod>2018-05-14T14:57Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/strengthening-program-design-monitoring-and-evaluation-state</loc><lastmod>2018-06-18T21:49Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/observations-facilitating-effective-use-government-performance-information</loc><lastmod>2018-06-29T17:39Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://pic.gov/content/goal-2-spark-cross-cutting-performance-improvements</loc><priority>1.0</priority></url>
+<url><loc>https://pic.gov/pic-resources</loc><priority>1.0</priority></url>
+<url><loc>https://pic.gov/pio-staff</loc><priority>1.0</priority></url>
+<url><loc>https://pic.gov/what-we-do/mission</loc><priority>1.0</priority></url>
+<url><loc>https://pic.gov/who-we-are/the-community</loc><priority>1.0</priority></url>
+<url><loc>https://pic.gov/who-we-are/the-council</loc><priority>1.0</priority></url>
+</urlset>
