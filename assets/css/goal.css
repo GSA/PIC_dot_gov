@@ -1,5 +1,5 @@
 .page-whldp .pane-fieldable-panels-pane:first-child {
-  background: #03528c url("{{site.baseurl}}/sites/all/themes/pic_omega/images/whldp_image_2018.jpg") no-repeat scroll 0px 0px / cover ;
+  background: #03528c url("/sites/all/themes/pic_omega/images/whldp_image_2018.jpg") no-repeat scroll 0px 0px / cover ;
 }
 .page-whldp .pane-fieldable-panels-pane:first-child h1::before, .page-whldp .pane-fieldable-panels-pane:first-child h2::before {
   border-color: #ffffff;
@@ -20,7 +20,7 @@
   border-color: #ffffff;
 }
 .pane-fpid-40 .pane-title {
-  background: rgba(0, 0, 0, 0) url("{{site.baseurl}}/sites/all/themes/pic_omega/images/icons/fa-rocket-big.png") no-repeat scroll center top;
+  background: rgba(0, 0, 0, 0) url("/sites/all/themes/pic_omega/images/icons/fa-rocket-big.png") no-repeat scroll center top;
   display: block;
 }
 .pane-fpid-40 .pane-title {
@@ -33,7 +33,7 @@
   text-align: center;
 }
 .view-cohort-list-slider ul.flex-direction-nav a.flex-prev {
-  background-image: url("{{site.baseurl}}/sites/all/themes/pic_omega/images/icons/fa-angle-left-black.png");
+  background-image: url("/sites/all/themes/pic_omega/images/icons/fa-angle-left-black.png");
   background-repeat: no-repeat;
 }
 .view-cohort-list-slider .flex-direction-nav a.flex-prev {
@@ -44,7 +44,7 @@
   top: 34%;
 }
 .view-cohort-list-slider ul.flex-direction-nav a.flex-next {
-  background-image: url("{{site.baseurl}}/sites/all/themes/pic_omega/images/icons/fa-angle-right-black.png");
+  background-image: url("/sites/all/themes/pic_omega/images/icons/fa-angle-right-black.png");
   background-repeat: no-repeat;
 }
 .view-cohort-list-slider .flex-direction-nav a.flex-next {
