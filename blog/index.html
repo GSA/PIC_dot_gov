@@ -183,7 +183,7 @@ pagination:
 
 
                <div class="view-content">
-               {% for posts in paginator.posts reversed %}
+               {% for posts in site.posts %}
                   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
                   {% if forloop.first == true %}
                      <div class="views-row views-row-{{forloop.index}} views-row-first">
