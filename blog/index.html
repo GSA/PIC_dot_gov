@@ -183,8 +183,6 @@ pagination:
 
 
                <div class="view-content">
-               {% assign mid = paginator.posts | sort: 'num'%}
-               {% assign projects = mid %}
                {% for posts in paginator.posts reversed %}
                   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
                   {% if forloop.first == true %}
