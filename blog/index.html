@@ -210,7 +210,12 @@
                         {{posts.above}}
                         <h2><a href="{{posts.permalink}}" rel="bookmark">{{posts.title}}</a></h2>
                         {% for p in posts.paragraphs %}
+                           {% if p contains 'src' %}
+                           {% assign arr = p | split: 'src="' %}
+                           <p>arr[0] + '{{site.baseurl}}' + p.imageurl + arr[1]</p>
+                           {% else%}
                            <p>{{ p }}</p>
+                           {% endif%}
                         {% endfor %}
                      </div>
                   </article>
