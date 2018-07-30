@@ -212,7 +212,8 @@
                         {% for p in posts.paragraphs %}
                            {% if p contains 'src' %}
                            {% assign arr = p | split: 'src="' %}
-                           <p>{{ arr[0] }} + '{{site.baseurl}}' + p.imageurl  + {{ arr[1] }}</p>
+                           <p>{{ arr[0] }} + '{{site.baseurl}}' + {{ p.imageurl }} + {{ arr[1] }}</p>
+                           <p> test {{ p.imageurl }}</p>
                            {% else%}
                            <p>{{ p }}</p>
                            {% endif%}
