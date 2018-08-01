@@ -216,6 +216,7 @@
                         {% else%}
                         <p>{{ posts.above }}</p>
                         {% endif %}
+                        {% endif %}
                         <h2><a href="{{posts.permalink}}" rel="bookmark">{{posts.title}}</a></h2>
                         {% for p in posts.paragraphs %}
                            {% if p contains 'src' %}
