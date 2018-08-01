@@ -22,6 +22,48 @@ imageurl: /sites/default/files/styles/blog_media/public/Shelley.jpg?itok=67fomPP
 <div class="main__wrapper">
     <div id="main" class="l-main">
       <a id="main-content"></a>
+{% assign ind = 2 | divided_by: 2 %}
+{% assign inde = 8 | divided_by: 2 %}
+{% assign inder = 7 | divided_by: 2 %}
+<p>{{ind}}</p>
+<p>{{inde}}</p>
+<p>{{inder}}</p>
+
+    {% for post in paginator.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+
+
+{% for posts in paginator.posts %}
+  {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+  {% if thecycle == 'odd' %}
+    {% if forloop.index == 1 %}
+    <div>{{posts.urls}} first</div>
+    {% else%}
+    <div>{{posts.urls}} odds</div>
+    {% endif %}
+  {% else %}
+    <div>{{posts.urls}} evens</div>
+  {% endif %}
+{% endfor %}
+
+{% for post in paginator.posts %}
+  <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p class="author">
+    <span class="date">{{ post.date }}</span>
+  </p>
+  <div class="content">
+
+  </div>
+{% endfor %}
+
+
 
               <h1>Great Moments Create the Future</h1>
                         <article about="{{site.baseurl}}/content/great-moments-create-future" typeof="sioc:posts foaf:Document" role="article" class="node node--blog view-mode-full node--full node--blog--full">
