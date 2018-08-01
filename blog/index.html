@@ -207,7 +207,15 @@
                         </h4>
                      </div>
                      <div class="node--blog--main-group">
-                        {{posts.above}}
+                        {% if posts.above %}
+                        {% if posts.above contains 'src' %}
+                        {% assign arr = posts.above | split: 'src=' %}
+                        {% assign burl = site.baseurl | append: posts.imageurl %}
+                        {% assign b = arr[0] | append: 'src=' | append: burl | append: arr[1] %}
+                        <p>{{b}}</p>
+                        {% else%}
+                        <p>{{ posts.above }}</p>
+                        {% endif %}
                         <h2><a href="{{posts.permalink}}" rel="bookmark">{{posts.title}}</a></h2>
                         {% for p in posts.paragraphs %}
                            {% if p contains 'src' %}
