@@ -1,0 +1,42 @@
+@media all and (max-width: 800px) {
+  #toolbar, #admin-menu {
+    display: none; }
+
+  html body.toolbar, html body.admin-menu {
+    padding-top: 0 !important;
+    margin-top: 0 !important; } }
+
+/*# sourceMappingURL=pic-omega.hacks.css.map */
+
+
+.view-projects-associated-with-goals .views-row .node--resources{
+    max-width: 60em;
+    margin: auto;
+}
+.page-pic-resources .l-main {
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.node--resources--teaser h2.node__title {
+    margin: 0 0 15px 0;
+    font-size: 1.3em;
+    color: #d43110;
+}
+.node--resources--teaser h2.node__title a {
+    color: #d43110;
+}
+.page-pic-resources h1{
+    display:none;
+    margin: 45px 0 35px;
+    position: relative;
+    padding-bottom: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    font-size: 2.2em;
+}
+.page-pic-resources .submitted, .page-pic-resources .links.links--inline{
+display:none;
+}
