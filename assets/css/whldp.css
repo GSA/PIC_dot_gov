@@ -1,9 +1,11 @@
+/* hard coded /demo/gsa/pic_dot_gov will be removed after migration */
 .page-whldp .pane-fieldable-panels-pane:first-child {
   background: #03528c url("/demo/gsa/pic_dot_gov/sites/all/themes/pic_omega/images/whldp_image_2018.jpg") no-repeat scroll 0px 0px / cover ;
 }
 .page-whldp .pane-fieldable-panels-pane:first-child h1::before, .page-whldp .pane-fieldable-panels-pane:first-child h2::before {
   border-color: #ffffff;
 }
+
 .page-whldp .pane-fieldable-panels-pane:first-child h1, .page-whldp .pane-fieldable-panels-pane:first-child h2, .page-whldp .pane-fieldable-panels-pane:first-child h3, .page-whldp .pane-fieldable-panels-pane:first-child p, .page-whldp .pane-fieldable-panels-pane:first-child li, .page-whldp .pane-fieldable-panels-pane:first-child .field--name-field-section-icon{
   color: #ffffff;
 }
