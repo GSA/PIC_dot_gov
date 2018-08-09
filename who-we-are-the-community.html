@@ -63,19 +63,18 @@ permalink: /who-we-are/the-community/
     <a href="#block-menu-block-2"><i class="fa fa-2x fa-bars">nav-menu</i></a>
   </div>
   <div>
+
     <div id="block-search-form" role="search" class="block block--search block--search-form">
         <div class="block__content">
-    <form class="search-block-form" action="{{site.baseurl}}/who-we-are/the-community" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
-      <h2 class="element-invisible">Search form</h2>
-    <div class="form-item form-type-textfield form-item-search-block-form">
-  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
- <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
-</div>
-<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-UM7jdL57-P9OdWAc7njBi-Q37y6dv9g53kWgGVDgPCs" />
-<input type="hidden" name="form_id" value="search_block_form" />
-</div>
-</div></form>  </div>
-</div>
+          <form id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
+            <input name="utf8" type="hidden" value="✓">
+            <input type="hidden" name="affiliate" id="affiliate" value="pic-federalist">
+            <input type="text" name="query" id="query" autocomplete="off" class="usagov-search-autocomplete ui-autocomplete-input form-text">
+            <input type="submit" name="commit" value="Search" class="form-submit">
+          </form>
+        </div>
+    </div>
+
   </div>
 </div>
     </header>
