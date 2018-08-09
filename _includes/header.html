@@ -50,13 +50,33 @@
 <div>
   <div id="block-search-form" role="search" class="block block--search block--search-form">
       <div class="block__content">
-        <form id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
+        <form class="search-block-form" accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get">
+          <div>
+            <div class="container-inline">
+              <h2 class="element-invisible">Search form</h2>
+              <div class="form-item form-type-textfield form-item-search-block-form">
+                <label class="element-invisible" for="query">Enter Search Term(s):</label>
+                <input autocomplete="off" title="Enter the terms you wish to search for." type="text" id="query" name="query" value="pic-federalist" size="15" maxlength="128" class="form-text usagov-search-autocomplete">
+              </div>
+              <div class="form-actions form-wrapper" id="edit-actions">
+                <input type="submit" id="edit-submit" name="op" value="Search" class="form-submit">
+              </div>
+              <input type="hidden" id="affiliate" name="affiliate" value="pic-federalist">
+              <input type="submit" name="commit" value="search">
+            </div>
+          </div>
+        </form>
+
+        <!--
+        <form class="search-block-form" id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
           <input name="utf8" type="hidden" value="&#x2713;" />
           <input type="hidden" name="affiliate" id="affiliate" value="pic-federalist" />
           <label for="query">Enter Search Term(s):</label>
           <input type="text" name="query" id="query" autocomplete="off" class="usagov-search-autocomplete" />
           <input type="submit" name="commit" value="Search" />
-        </form>
+        </form> -->
+
+
       </div>
 </div>
 </div>
