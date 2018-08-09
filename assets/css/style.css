@@ -78,7 +78,7 @@
     margin-right: auto;
 	}
 .page-who-we-are-the-community .pane-fpid-29 {
-    background: #efefef url(/sites/all/themes/pic_omega/images/community_compressed.jpg);
+    background: #efefef url("/demo/gsa/pic_dot_gov/sites/all/themes/pic_omega/images/community_compressed.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 60px 0 80px 0; //updated padding that was 100% from the original css
