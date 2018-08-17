@@ -101,9 +101,9 @@
          *
          * For example take an example application:
          *
-         *     http://example.com/application-data (2 FooTables on this page)
-         *     http://example.com/application-data/#/details (1 FooTable on this page)
-         *     http://example.com/other-data (1 FooTable on this page)
+         *     https://example.com/application-data (2 FooTables on this page)
+         *     https://example.com/application-data/#/details (1 FooTable on this page)
+         *     https://example.com/other-data (1 FooTable on this page)
          *
          * Would be stored like this:
          *

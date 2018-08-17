@@ -8,7 +8,7 @@
         }
     };
 
-    // see http://www.onlineaspect.com/2009/06/10/reading-get-variables-with-javascript/
+    // see https://www.onlineaspect.com/2009/06/10/reading-get-variables-with-javascript/
     function $_HASH(q,s) {
         s = s ? s : location.hash;
         var re = new RegExp('&'+q+'(?:=([^&]*))?(?=&|$)','i');

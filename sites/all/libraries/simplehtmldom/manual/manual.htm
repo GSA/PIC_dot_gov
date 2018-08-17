@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -48,7 +48,7 @@
     <div id="fragment-11">
       <div class="code">
         <span class="comment">// Create DOM from URL or file</span><br>
-        $html = <strong>file_get_html</strong>(<span class="var">'http://www.google.com/'</span>);<br>
+        $html = <strong>file_get_html</strong>(<span class="var">'https://www.google.com/'</span>);<br>
         <br>
         <span class="comment">// Find all images </span><br>
         foreach($html-&gt;<strong>find</strong>(<span class="var">'img'</span>) as $element) <br>
@@ -74,7 +74,7 @@ $html-&gt;<strong>find</strong>(<span class="var">'div[id=hello]', 0</span>)-&gt
     <div id="fragment-13">
       <div class="code"><br>
         <span class="comment">// Dump contents (without tags) from HTML</span><br>
-        echo <strong>file_get_html</strong>(<span class="var">'http://www.google.com/'</span>)-&gt;<strong>plaintext</strong>;
+        echo <strong>file_get_html</strong>(<span class="var">'https://www.google.com/'</span>)-&gt;<strong>plaintext</strong>;
 				<br>
 				<br>
       </div>
@@ -82,7 +82,7 @@ $html-&gt;<strong>find</strong>(<span class="var">'div[id=hello]', 0</span>)-&gt
     <div id="fragment-14">
       <div class="code">
         <span class="comment">// Create DOM from URL</span><br>
-        $html = <strong>file_get_html</strong>(<span class="var">'http://slashdot.org/'</span>);<br>
+        $html = <strong>file_get_html</strong>(<span class="var">'https://slashdot.org/'</span>);<br>
         <br>
         <span class="comment">// Find all article blocks</span><br>
         foreach($html-&gt;<strong>find</strong>(<span class="var">'div.article'</span>) as $article) {<br>
@@ -110,7 +110,7 @@ $html-&gt;<strong>find</strong>(<span class="var">'div[id=hello]', 0</span>)-&gt
         $html = <strong>str_get_html</strong>(<span class="var">'&lt;html&gt;&lt;body&gt;Hello!&lt;/body&gt;&lt;/html&gt;'</span>);<br>
         <br>
         <span class="comment">// Create a DOM object from a URL</span><br>
-        $html = <strong>file_get_html</strong>(<span class="var">'http://www.google.com/'</span>);<br>
+        $html = <strong>file_get_html</strong>(<span class="var">'https://www.google.com/'</span>);<br>
         <br>
         <span class="comment">// Create a DOM object from a HTML file</span><br>
         $html = <strong>file_get_html</strong>(<span class="var">'test.htm'</span>);<span class="comment"><br>
@@ -124,7 +124,7 @@ $html-&gt;<strong>find</strong>(<span class="var">'div[id=hello]', 0</span>)-&gt
         $html-&gt;<strong>load</strong>(<span class="var">'&lt;html&gt;&lt;body&gt;Hello!&lt;/body&gt;&lt;/html&gt;'</span>);<br>
         <br>
         <span class="comment">// Load HTML from a URL </span> <br>
-        $html-&gt;<strong>load_file</strong>(<span class="var">'http://www.google.com/'</span>);<br>
+        $html-&gt;<strong>load_file</strong>(<span class="var">'https://www.google.com/'</span>);<br>
         <br>
         <span class="comment">// Load HTML from a HTML file</span> <br>
         $html-&gt;<strong>load_file</strong>(<span class="var">'test.htm'</span>);</div>
@@ -340,7 +340,7 @@ $e-&gt;<strong>outertext</strong> = <span class="var">'&lt;div&gt;foo</span><spa
       <li><a href="#frag_traverse_traverse"><span>Traverse the DOM tree</span></a></li>
     </ul>
     <div id="frag_traverse_background">
-      <div class="code"> <span class="comment">// If you are not so familiar with HTML DOM, check this <a href="http://php.net/manual/en/book.dom.php" target="_blank"><span class="var">link</span></a> to learn more... </span><br>
+      <div class="code"> <span class="comment">// If you are not so familiar with HTML DOM, check this <a href="https://php.net/manual/en/book.dom.php" target="_blank"><span class="var">link</span></a> to learn more... </span><br>
         <br>
         <span class="comment">// Example</span><br>
         echo $html-&gt;<strong>find</strong>(<span class="var">&quot;#div1&quot;, 0</span>)-&gt;<strong>children</strong>(<span class="var">1</span>)-&gt;<strong>children</strong>(<span class="var">1</span>)-&gt;<strong>children</strong>(<span class="var">2</span>)-&gt;<span class="var">id</span>;<br>
@@ -439,7 +439,7 @@ $e-&gt;<strong>outertext</strong> = <span class="var">'&lt;div&gt;foo</span><spa
 
   <div><br>
     Author: S.C. Chen (me578022@gmail.com)<br>
-Original idea is from Jose Solorzano's <a href="http://php-html.sourceforge.net/">HTML Parser for PHP 4</a>. <br>
+Original idea is from Jose Solorzano's <a href="https://php-html.sourceforge.net/">HTML Parser for PHP 4</a>. <br>
 Contributions by: Contributions by: Yousuke Kumakura, Vadim Voituk, Antcs<br>
   </div>
 </div>
