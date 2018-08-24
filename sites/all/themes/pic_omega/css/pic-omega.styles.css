@@ -463,18 +463,21 @@ blockquote {
         margin-right: auto; } }
 .page-home .pane-fieldable-panels-pane:first-child h1, .page-home .pane-fieldable-panels-pane:first-child h2, .page-home .pane-fieldable-panels-pane:first-child h3, .page-home .pane-fieldable-panels-pane:first-child p, .page-home .pane-fieldable-panels-pane:first-child li {
     color: #ffffff; }
-.page-home .pane-fieldable-panels-pane:nth-child(3) {
+.page-home .pane-fieldable-panels-pane:nth-child(2) {
     background: #d43110 url("../images/what-we-do-bg_compressed.jpg") no-repeat; }
 .page-home .pane-fieldable-panels-pane:nth-child(3) h1, .page-home .pane-fieldable-panels-pane:nth-child(3) h2, .page-home .pane-fieldable-panels-pane:nth-child(3) h3, .page-home .pane-fieldable-panels-pane:nth-child(3) p, .page-home .pane-fieldable-panels-pane:nth-child(3) li, .page-home .pane-fieldable-panels-pane:nth-child(3) .field--name-field-section-icon {
-    color: #ffffff; }
+    color: #424242;
+    }
 .page-home .pane-fieldable-panels-pane:nth-child(3) .field--name-field-section-icon, .page-home .pane-fieldable-panels-pane:nth-child(3) h1:before, .page-home .pane-fieldable-panels-pane:nth-child(3) h2:before {
-    border-color: #ffffff; }
-.page-home .pane-fieldable-panels-pane:nth-child(2) {
+    border-color: #d43110;
+    }
+.page-home .pane-fieldable-panels-pane:nth-child(3) {
     background: #e9c944 url("../images/who-we-are-bg_compressed.jpg") no-repeat;
     background-size: cover; }
 .page-home .pane-fieldable-panels-pane:nth-child(2) .field--name-field-section-icon {
-    border-color: #d43110;
-    color: #d43110; }
+    border-color: #fff;
+    color: #fff;
+    }
 
 .pane-fieldable-panels-pane.pane-bundle-tryptich .field--name-field-tryptich-sections {
     position: relative; }
