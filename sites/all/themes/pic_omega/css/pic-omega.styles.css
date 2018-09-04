@@ -1074,7 +1074,7 @@ li.mm-subtitle {
     margin-top: 30px; }
 @media (min-width: 60em) {
     .view-blog-list .view-content {
-        width: 66.10169%;
+        width: 100%;
         float: left;
         margin-right: 1.69492%;
         margin: 0; } }
