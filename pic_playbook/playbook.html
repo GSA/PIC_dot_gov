@@ -40,6 +40,7 @@ permalink: /playbook/
 @import url("{{site.baseurl}}/sites/all/modules/contrib/ctools/css/ctools.css?pcsnps");
 @import url("{{site.baseurl}}/sites/all/modules/contrib/panels/css/panels.css?pcsnps");
 @import url("{{site.baseurl}}/sites/default/files/ctools/css/0a3f5b42d5f5fd481b9243a6de48b7d4.css?pcsnps");
+
 @import url("{{site.baseurl}}/sites/all/modules/contrib/panels/plugins/layouts/onecol/onecol.css?pcsnps");
 @import url("{{site.baseurl}}/sites/all/libraries/jQuery.mmenu-master/src/css/jquery.mmenu.all.css?pcsnps");
 @import url("{{site.baseurl}}/sites/all/libraries/FlexSlider/flexslider.css?pcsnps");
@@ -74,316 +75,251 @@ permalink: /playbook/
 <script src="{{site.baseurl}}/sites/all/themes/pic_omega/js/Universal-Federated-Analytics.js?pcsnps"></script>
 <script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/playbook":true}});</script>
 <style>
-.col-xs-4 h3.set {
-    color: #28628E;
-    font-weight: bold;
-}
-.pane-fieldable-panels-pane .col-xs-4 h3 {
-    text-align: left;
-}
-.pane-fieldable-panels-pane h3 {
-    letter-spacing: .20em;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.3em;
-}
-.col-xs-4 h3.plan {
-    color: #E16740;
-    font-weight: bold;
-}
-.col-xs-4 h3.achieve {
-    color: #F1B828;
-    font-weight: bold;
-}
+
 </style>
 </head>
 <body class="html not-front not-logged-in page-playbook page-playbook-cio section-playbook">
-  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
-
-
-<div class="l-page">
-
-
-
-<div class="header__wrapper">
-    <header class="l-header" role="banner">
-      <div class="logo">
-        <a href="{{site.baseurl}}/"title="Home" rel="home" class="site-logo">
-          <img typeof="foaf:Image" src="{{site.baseurl}}/sites/all/themes/pic_omega/images/logo.png" alt="Home" />        </a>
+   <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+   <div class="l-page">
+      <div class="header__wrapper">
+         <header class="l-header" role="banner">
+            <div class="logo">
+               <a href="{{site.baseurl}}/"title="Home" rel="home" class="site-logo">
+               <img typeof="foaf:Image" src="{{site.baseurl}}/sites/all/themes/pic_omega/images/logo.png" alt="Home" />        </a>
+            </div>
+            <div class="l-region l-region--navigation">
+               <nav id="block-menu-block-2" role="navigation" class="block block--menu-block block--menu-block-2">
+                  <ul class="menu">
+                     <li class="first expanded menu-mlid-305 main-menu--top">
+                        <a href="{{site.baseurl}}/what-we-do/mission" title="What We Do menu links to the middle of home page and highlights goals and mission.">What We Do</a>
+                        <ul class="menu">
+                           <li class="first leaf menu-mlid-526"><a href="{{site.baseurl}}/what-we-do/mission" title="link to statement of mission">Mission</a></li>
+                           <li class="last leaf has-children menu-mlid-308"><a href="{{site.baseurl}}/content/cross-agency-engagements" title="Our Work">Our Priorities</a></li>
+                        </ul>
+                     </li>
+                     <li class="expanded menu-mlid-437 main-menu--top">
+                        <a href="{{site.baseurl}}/who-we-are/the-council" title="Who We Are">Who We Are</a>
+                        <ul class="menu">
+                           <li class="first leaf menu-mlid-438"><a href="{{site.baseurl}}/who-we-are/the-council" title="The Council">The Council</a></li>
+                           <li class="leaf menu-mlid-770"><a href="{{site.baseurl}}/pio-staff" title="Members of the Performance Improvement Council">Members of the Performance Improvement Council</a></li>
+                           <li class="last leaf menu-mlid-527"><a href="{{site.baseurl}}/who-we-are/the-community" title="The Community">Key Partners</a></li>
+                        </ul>
+                     </li>
+                     <li class="expanded menu-mlid-303 main-menu--top">
+                        <a href="{{site.baseurl}}/blog" title="Blog">Blog</a>
+                        <ul class="menu">
+                           <li class="first last leaf menu-mlid-753"><a href="{{site.baseurl}}/blog" title="Blog">Blog</a></li>
+                        </ul>
+                     </li>
+                     <li class="last leaf menu-mlid-1912"><a href="{{site.baseurl}}/pic-resources" title="">Resources</a></li>
+                  </ul>
+               </nav>
+            </div>
+            <div class="l-region l-region--header">
+               <div class="main-menu-toggle">
+                  <a href="#block-menu-block-2"><i class="fa fa-2x fa-bars">nav-menu</i></a>
+               </div>
+               <div>
+                  <div id="block-search-form" role="search" class="block block--search block--search-form">
+                     <div class="block__content">
+                        <form id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
+                           <input name="utf8" type="hidden" value="✓">
+                           <input type="hidden" name="affiliate" id="affiliate" value="pic-federalist">
+                           <input type="text" name="query" id="query" autocomplete="off" class="usagov-search-autocomplete ui-autocomplete-input form-text">
+                           <input type="submit" name="commit" value="Search" class="form-submit">
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
       </div>
-        <div class="l-region l-region--navigation">
-    <nav id="block-menu-block-2" role="navigation" class="block block--menu-block block--menu-block-2">
+      <div class="main__wrapper">
+         <div id="main" class="l-main">
+            <a id="main-content"></a>
+            <h1>P3 Playbook</h1>
+            <div class="panel-display panel-1col clearfix" >
+               <div class="panel-panel panel-col">
+                  <div>
+                     <div id=fpid-38 class="panel-pane pane-fieldable-panels-pane pane-fpid-38 pane-bundle-fieldable-panels-pane"  class="panel-pane pane-fieldable-panels-pane pane-fpid-38 pane-bundle-fieldable-panels-pane">
+                        <div class="pane-inner-wrapper">
+                           <div class="pane-content">
+                              <div class="fieldable-panels-pane" class="fieldable-panels-pane">
+                                 <div class="field field--name-field-body field--type-text-long field--label-hidden">
+                                    <p>
+                                       <a alt="PIC.gov Home Page Link" href="{{site.baseurl}}/" target="_self" title="PIC.gov Home Page Link" id="anch_34"><img alt="PIC.gov Home Page Link" title="PIC.gov Home Page Link" style="width: 300px; height: 200px;" class="media-element file-default" typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/blog_media/public/PIC%20People%20Layout%20white_Artboard%202-blue.png?itok=eN1HCgT4" width="600" height="400" /></a>
+                                       <img alt="PIC.gov Home Page Link" title="PIC.gov Home Page Link" class="media-element file-default pic-p3" typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/blog_media/public/PerformancePractices02.png" usemap="#directory"/>
+                                    </p>
+                                    <style>
+                                       @media (min-width: 980px) {
+                                       .pic-p3{
+                                       position: absolute; margin-top: 15px; height: 345px; margin-left: 230px;z-index:9;
+                                       }
+                                       }
+                                       @media (max-width: 979px) {
+                                       .pic-p3{height:200px; clear:both;float:right;}
+                                       }
+                                    </style>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id=fpid-37 class="panel-pane pane-fieldable-panels-pane pane-fpid-37 pane-bundle-fieldable-panels-pane"  class="panel-pane pane-fieldable-panels-pane pane-fpid-37 pane-bundle-fieldable-panels-pane">
+                        <div class="pane-inner-wrapper">
+                           <div class="pane-content">
+                              <div class="fieldable-panels-pane" class="fieldable-panels-pane">
+                                 <div class="field field--name-field-body field--type-text-long field--label-hidden">
+                                    <h2>Resource Center Playbook</h2>
+                                    <p><br /><br />In 2015, the Performance Improvement Council (PIC) staff set out to define the foundational aspects of performance management in government. Using our experience working with diverse Federal agencies, we clarified our point of view about what it takes to not only achieve mission results, but actively manage ambitious and sometimes cross-governmental goals. We also went back into our archive of interviews, summits, and working groups to reflect what we’ve repeatedly heard from professionals who have given their careers to understanding, improving, and driving their agency’s performance.</p>
+                                    <p><br />We developed the P3 (Performance Principles &amp; Practices) construct to go beyond the legal requirements, and capture the capabilities and spirit of performance management and improvement. We’ve turned P3 into a playbook for anyone to use who has a role in implementing programs, initiatives, and missions. Performance is a tool to help you achieve your goals, deliver the right things, and build the capabilities you need to evolve.</p>
+                                    <p><br />Each play provides an overview, some key questions to ask yourself and a few resources you can use immediately. Get started exploring P3 by pressing on one of the three colored wedges above. The playbook is a living document and updates are frequent. If you have a resource you can recommend or a suggestions, please contact the staff at fed2fedsolutions@gsa.gov.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id=fpid-35 class="panel-pane pane-fieldable-panels-pane pane-fpid-35 pane-bundle-fieldable-panels-pane"  class="panel-pane pane-fieldable-panels-pane pane-fpid-35 pane-bundle-fieldable-panels-pane">
+                        <div class="pane-inner-wrapper">
+                           <div class="pane-content">
+                              <div class="fieldable-panels-pane" class="fieldable-panels-pane">
+                                 <div class="field field--name-field-body field--type-text-long field--label-hidden">
+                                    <h2>The P3 Plays</h2>
+                                    <div class="col-xs-4">
+                                       <h3 class="deciding"><a href="{{site.baseurl}}/deciding">DECIDING</a></h3>
+                                       <div>
+                                         <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span><a href="{{site.baseurl}}/deciding/#play1" title="View Play 1">Goal Setting and Prioritization</a></li></p>
+                                         <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span><a href="{{site.baseurl}}/deciding/#play2" title="View Play 2">Planning</a></li></p>
+                                         <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span><a href="{{site.baseurl}}/deciding/#play3" title="View Play 3">Evaluation</a></li></p>
+                                         <br>
+                                       </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                       <h3 class="knowing"><a href="{{site.baseurl}}/knowing">KNOWING</a></h3>
+                                       <div>
+                                         <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span><a href="{{site.baseurl}}/knowing/#play4" title="View Play 4">Data</a></li></p>
+                                         <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span><a href="{{site.baseurl}}/knowing/#play5" title="View Play 5">Analysis</a></li></p>
+                                         <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span><a href="{{site.baseurl}}/knowing/#play6" title="View Play 6">Measurement</a></li></p>
+                                         <br>
+                                       </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                       <h3 class="delivering"><a href="{{site.baseurl}}/delivering">DELIVERING</a></h3>
+                                       <div>
+                                         <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span><a href="{{site.baseurl}}/delivering/#play7" title="View Play 7">Implementation</a></p>
+                                         <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span><a href="{{site.baseurl}}/delivering/#play8" title="View Play 8">Communicating Performance Info</a></li></p>
+                                         <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span><a href="{{site.baseurl}}/delivering/#play9" title="View Play 9">Improvement</a></li></p>
+                                         <br>
+                                       </div>
+                                    </div>
+                                    <!--   <div class="inner_container">
+                                       <h1>The P3 Plays</h1>
+                                       <div class="columns" style="-moz-column-count: 2;-moz-column-gap: 20px;-webkit-column-count: 2;-webkit-column-gap: 20px;column-count: 2 ;column-gap: 20px;">
 
-  <ul class="menu"><li class="first expanded menu-mlid-305 main-menu--top"><a href="{{site.baseurl}}/what-we-do/mission" title="What We Do menu links to the middle of home page and highlights goals and mission.">What We Do</a><ul class="menu"><li class="first leaf menu-mlid-526"><a href="{{site.baseurl}}/what-we-do/mission" title="link to statement of mission">Mission</a></li>
-<li class="last leaf has-children menu-mlid-308"><a href="{{site.baseurl}}/content/cross-agency-engagements" title="Our Work">Our Priorities</a></li>
-</ul></li>
-<li class="expanded menu-mlid-437 main-menu--top"><a href="{{site.baseurl}}/who-we-are/the-council" title="Who We Are">Who We Are</a><ul class="menu"><li class="first leaf menu-mlid-438"><a href="{{site.baseurl}}/who-we-are/the-council" title="The Council">The Council</a></li>
-<li class="leaf menu-mlid-770"><a href="{{site.baseurl}}/pio-staff" title="Members of the Performance Improvement Council">Members of the Performance Improvement Council</a></li>
-<li class="last leaf menu-mlid-527"><a href="{{site.baseurl}}/who-we-are/the-community" title="The Community">Key Partners</a></li>
-</ul></li>
-<li class="expanded menu-mlid-303 main-menu--top"><a href="{{site.baseurl}}/blog" title="Blog">Blog</a><ul class="menu"><li class="first last leaf menu-mlid-753"><a href="{{site.baseurl}}/blog" title="Blog">Blog</a></li>
-</ul></li>
-<li class="last leaf menu-mlid-1912"><a href="{{site.baseurl}}/pic-resources" title="">Resources</a></li>
-</ul></nav>
-  </div>
-      <div class="l-region l-region--header">
-  <div class="main-menu-toggle">
-    <a href="#block-menu-block-2"><i class="fa fa-2x fa-bars">nav-menu</i></a>
-  </div>
-  <div>
-
-    <div id="block-search-form" role="search" class="block block--search block--search-form">
-        <div class="block__content">
-          <form id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
-            <input name="utf8" type="hidden" value="✓">
-            <input type="hidden" name="affiliate" id="affiliate" value="pic-federalist">
-            <input type="text" name="query" id="query" autocomplete="off" class="usagov-search-autocomplete ui-autocomplete-input form-text">
-            <input type="submit" name="commit" value="Search" class="form-submit">
-          </form>
-        </div>
-    </div>
-
-  </div>
-</div>
-    </header>
-  </div>
-  <div class="main__wrapper">
-    <div id="main" class="l-main">
-      <a id="main-content"></a>
+                                       </div>
 
 
-              <h1>P3 Playbook</h1>
-                        <div class="panel-display panel-1col clearfix" >
-  <div class="panel-panel panel-col">
-    <div><div id=fpid-38 class="panel-pane pane-fieldable-panels-pane pane-fpid-38 pane-bundle-fieldable-panels-pane"  class="panel-pane pane-fieldable-panels-pane pane-fpid-38 pane-bundle-fieldable-panels-pane">
-  <div class="pane-inner-wrapper">
-
-
-
-    <div class="pane-content">
-      <div class="fieldable-panels-pane" class="fieldable-panels-pane">
-
-  <div class="field field--name-field-body field--type-text-long field--label-hidden">
-    <p>
-      <a alt="PIC.gov Home Page Link" href="{{site.baseurl}}/" target="_self" title="PIC.gov Home Page Link" id="anch_34"><img alt="PIC.gov Home Page Link" title="PIC.gov Home Page Link" style="width: 300px; height: 200px;" class="media-element file-default" typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/blog_media/public/PIC%20People%20Layout%20white_Artboard%202-blue.png?itok=eN1HCgT4" width="600" height="400" /></a>
-      <img alt="PIC.gov Home Page Link" title="PIC.gov Home Page Link" class="media-element file-default pic-p3" typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/blog_media/public/PerformancePractices02.png" />
-    </p>
-<style>
-@media (min-width: 980px) {
-  .pic-p3{
-margin-top: 15px; height: 345px; margin-left: 230px;z-index:9;
-}
-}
-@media (max-width: 979px) {
-.pic-p3{height:200px; clear:both;float:right;}
-}
-</style>  </div>
-</div>
-    </div>
-
-
+                                       </div>-->
+                                    <br><br>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id=fpid-34 class="panel-pane pane-fieldable-panels-pane pane-fpid-34 pane-bundle-fieldable-panels-pane"  class="panel-pane pane-fieldable-panels-pane pane-fpid-34 pane-bundle-fieldable-panels-pane">
+                        <div class="pane-inner-wrapper">
+                           <div class="pane-content">
+                              <div class="fieldable-panels-pane" class="fieldable-panels-pane">
+                                 <div class="field field--name-field-body field--type-text-long field--label-hidden">
+                                    <div class="inner_container">
+                                       <a id="play10" class="anchor_offset"></a>
+                                       <br>
+                                       <h3>Power Play</h3>
+                                       <h2 class="display">Enable and Invest in Culture</h2>
+                                       <p>Putting your P3 plays into practice not only should build essential capability at your organization, but should also help cultivate performance culture. And when performance becomes part of the “DNA” of a team or organization we also see certain cultural elements welcomed and sustained. We are calling these things, “performance operating principles.” These principles are habits or beliefs that an organization can adopt in order to drive a performance-positive mindset among employees and create a culture that values performance management and improvement.</p>
+                                       <br>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div id=fpid-36 class="panel-pane pane-fieldable-panels-pane pane-fpid-36 pane-bundle-fieldable-panels-pane"  class="panel-pane pane-fieldable-panels-pane pane-fpid-36 pane-bundle-fieldable-panels-pane">
+                        <div class="pane-inner-wrapper">
+                           <div class="pane-content">
+                              <div class="fieldable-panels-pane" class="fieldable-panels-pane">
+                                 <div class="field field--name-field-body field--type-text-long field--label-hidden">
+                                    <div class="inner_container">
+                                       <h3 id="checklist">Checklist</h3>
+                                       <p>1. <strong>More than just compliance</strong></p>
+                                       <p><em>What are we aiming for?</em></p>
+                                       <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> Our performance management activities are integrated with other lines of business.</p>
+                                       <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> Teams working on performance collaborate regularly with business and program managers.</p>
+                                       <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> Leaders talk about performance management as a way to drive results, not just meet a legal requirement.</p>
+                                       <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> People at the HQ level and people at the Component level follow the same or very similar performance management processes.</p>
+                                       <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> We have performance experts that we can ask for advice or assistance.</p>
+                                       <p> </p>
+                                       <br>
+                                       <p>2.  <strong>Results-Oriented Candor &amp; Transparency</strong></p>
+                                       <p><em>What are we aiming for?</em></p>
+                                       <p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We are encouraged to speak up when we have ideas about what should change.</p>
+                                       <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>Anyone internal or external to our organization could ask for and/or provide feedback about how a mission area is performing.</p>
+                                       <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>Anyone internal or external to our organization could easily find performance and organization data.</p>
+                                       <p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>Leaders consistently talk about progress, results, and opportunities to get better.</p>
+                                       <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We like to share information with one another.</p>
+                                       <p> </p>
+                                       <br>
+                                       <p>3.  <strong>Healthy Attitude Towards Risk</strong></p>
+                                       <p><em>What are we aiming for?</em></p>
+                                       <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We set goals that we know may be a challenge to achieve.</p>
+                                       <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> We have some flexibility in our plans, assessments, and decision-making to account for possible failures.</p>
+                                       <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> We talk about how it is “safe to fail."</p>
+                                       <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> Leaders protect people who take acceptable risks.</p>
+                                       <p></p>
+                                       <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> We have clear guidelines about what is and isn’t considered an acceptable risk.</p>
+                                       <p> </p>
+                                       <br>
+                                       <p>4. <strong>Positive Ownership &amp; Accountability for Results</strong></p>
+                                       <p><em>What are we aiming for?</em></p>
+                                       <p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>Results are included in our job descriptions.</p>
+                                       <p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>Anyone at our organization could identify and explain what they are accountable for.</p>
+                                       <p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We know how our work connects to mission priorities.</p>
+                                       <p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We find ways to improve or advance our delivery methods.</p>
+                                       <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> Leaders take responsibility for achieving performance outcomes.</p>
+                                       <p> </p>
+                                       <br>
+                                       <p>5. <strong>Stakeholder &amp; Customer Oriented</strong></p>
+                                       <p><em>What are we aiming for? </em></p>
+                                       <p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We can receive or easily find information about customers.</p>
+                                       <p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We pay attention to customer satisfaction data.</p>
+                                       <p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We design our processes to suit various stakeholders or customer groups.</p>
+                                       <p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>Multiple customer/stakeholder perspectives are included in our decision-making process.</p>
+                                       <p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>Leaders talk about the value of customer and stakeholder needs.</p>
+                                       <p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We see our stakeholders as our partners.</p>
+                                       <p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We develop reviews, plans, and reports in coordination with multiple internal and external stakeholders.</p>
+                                    </div>
+                                 </div>
+                                 <div class="field field--name-field-body field--type-text-long field--label-hidden">
+                                    <a id="playrules" class="anchor_offset"></a>
+                                    <p id="playrules">-------------------------------------------------------</p>
+                                    <p><strong>Rules of P3 </strong></p>
+                                    <p>The P3 construct is designed to help you gauge where you are and where you need to go in order to drive performance for your mission. It helps you think about your capability strengths, identify gaps and opportunities, and have a discussion about how performance management can help you achieve your goals. It is not a step-wise process or model with a beginning and an end. When using the PIC’s P3 Playbook as a team, or just for yourself, keep in mind these two rules:</p>
+                                    <p><strong><em>Not Linear</em></strong></p>
+                                    <p>While these practices may feel linear to where you sit in the organization, all of these performance activities are interrelated and interdependent. For example, you may decide to set measures first and then prioritize your goal activities. You may first invest in analytical capabilities which will inform your planning and evaluation. You may begin with a performance improvement, which impacts your implementation and data activities. Anyone and any organization can start with what they have, and leverage these capability strengths to direct, initiate or incorporate other aspects of P3.</p>
+                                    <p><strong><em>There isn’t “one right way” </em></strong></p>
+                                    <p>How you run, develop, and invest in your P3 plays is totally flexible and up to the culture and skills of your team. Different organizations or teams will have varying degrees of activity in each, with none considered “more successful” than another. For example, we know that there are some organizations that do “data stuff” really well. Those data-oriented organizations can achieve performance results as strong as those organizations that do “goal setting and prioritization” really well. It just depends on how an organization invests in building its performance capabilities. However, to be most effective in achieving and managing the “right” results for your mission, each element of the P3 construct should exist in tandem at your organization, program, or initiative team.</p>
+                                 </div>
+                              </div>
+                              <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-</div>
-<div id=fpid-37 class="panel-pane pane-fieldable-panels-pane pane-fpid-37 pane-bundle-fieldable-panels-pane"  class="panel-pane pane-fieldable-panels-pane pane-fpid-37 pane-bundle-fieldable-panels-pane">
-  <div class="pane-inner-wrapper">
-
-
-
-    <div class="pane-content">
-      <div class="fieldable-panels-pane" class="fieldable-panels-pane">
-
-  <div class="field field--name-field-body field--type-text-long field--label-hidden">
-    <h1>The PIC's P3 Playbook</h1>
-
-
-<p><br /><br />In 2015, the Performance Improvement Council (PIC) staff set out to define the foundational aspects of performance management in government. Using our experience working with diverse Federal agencies, we clarified our point of view about what it takes to not only achieve mission results, but actively manage ambitious and sometimes cross-governmental goals. We also went back into our archive of interviews, summits, and working groups to reflect what we’ve repeatedly heard from professionals who have given their careers to understanding, improving, and driving their agency’s performance.</p>
-
-<p><br />We developed the P3 (Performance Principles &amp; Practices) construct to go beyond the legal requirements, and capture the capabilities and spirit of performance management and improvement. We’ve turned P3 into a playbook for anyone to use who has a role in implementing programs, initiatives, and missions. Performance is a tool to help you achieve your goals, deliver the right things, and build the capabilities you need to evolve.</p>
-<p><br />Each play provides an overview, some key questions to ask yourself and a few resources you can use immediately. Get started exploring P3 by pressing on one of the three colored wedges above. The playbook is a living document and updates are frequent. If you have a resource you can recommend or a suggestions, please contact the staff at fed2fedsolutions@gsa.gov.</p>
-
-
-
-
-  </div>
-</div>
-    </div>
-
-
-      </div>
-</div>
-<div id=fpid-35 class="panel-pane pane-fieldable-panels-pane pane-fpid-35 pane-bundle-fieldable-panels-pane"  class="panel-pane pane-fieldable-panels-pane pane-fpid-35 pane-bundle-fieldable-panels-pane">
-  <div class="pane-inner-wrapper">
-
-
-
-    <div class="pane-content">
-      <div class="fieldable-panels-pane" class="fieldable-panels-pane">
-
-  <div class="field field--name-field-body field--type-text-long field--label-hidden">
-  <div class="pane-inner-wrapper">
-
-
-
-<div class="pane-content">
- <div class="fieldable-panels-pane">
-
-  <div class="field field--name-field-body field--type-text-long field--label-hidden">
-    <h2>The Goal Plays</h2>
-
-	<div class="col-xs-4">
-	<h3 class="set">Phase 1: Knowing</h3>
-
-	<ul><li><a href="#play1" title="View Play 1">Analysis</a></li>
-		<li><a href="#play2" title="View Play 2">Data</a></li>
-		<li><a href="#play3" title="View Play 3">Measurement</a></li>
-	</ul></div>
-
-	<div class="col-xs-4">
-	<h3 class="plan">Phase 2: Deciding</h3>
-
-	<ul>
-	    <li><a href="#play4" title="View Play 4">Evaluation</a></li>
-		<li><a href="#play5" title="View Play 5">Planning</a></li>
-		<li><a href="#play6" title="View Play 6">Goal Setting and Prioritization</a></li>
-
-	</ul></div>
-
-	<div class="col-xs-4">
-	<h3 class="achieve">Phase 3: Delivering</h3>
-
-	<ul>
-		<li><a href="#play10" title="View Play 10">Implementation</a></li>
-		<li><a href="#play11" title="View Play 11">Improvement</a></li>
-		<li><a href="#play12" title="View Play 12">Communicating Performance Info</a></li>
-
-	</ul></div>
-  </div>
- </div>
- </div>
-</div>
-  <!--   <div class="inner_container">
-	<h1>The P3 Plays</h1>
-	<div class="columns" style="-moz-column-count: 2;-moz-column-gap: 20px;-webkit-column-count: 2;-webkit-column-gap: 20px;column-count: 2 ;column-gap: 20px;">
-
-	</div>
-
-
-</div>-->
-
-<br><br>
-<div class="button"><a href="#playrules" title="See the Rules">See the Rules</a></div>
-  </div>
-</div>
-    </div>
-
-
-      </div>
-</div>
-<div id=fpid-36 class="panel-pane pane-fieldable-panels-pane pane-fpid-36 pane-bundle-fieldable-panels-pane"  class="panel-pane pane-fieldable-panels-pane pane-fpid-36 pane-bundle-fieldable-panels-pane">
-  <div class="pane-inner-wrapper">
-
-
-
-    <div class="pane-content">
-      <div class="fieldable-panels-pane" class="fieldable-panels-pane">
-
-  <div class="field field--name-field-body field--type-text-long field--label-hidden">
-    <div class="inner_container"><a id="play10" class="anchor_offset"></a>
-	<h3>Power Play</h3>
-
-	<h2 class="display">Enable and Invest in Culture</h2>
-
-	<p>Putting your P3 plays into practice not only should build essential capability at your organization, but should also help cultivate performance culture. And when performance becomes part of the “DNA” of a team or organization we also see certain cultural elements welcomed and sustained. We are calling these things, “performance operating principles.” These principles are habits or beliefs that an organization can adopt in order to drive a performance-positive mindset among employees and create a culture that values performance management and improvement.</p>
-
-	<h3 id="checklist">Checklist</h3>
-
-	<p>1. <strong>More than just compliance</strong></p>
-
-	<p><em>What are we aiming for?</em></p>
-<p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> Our performance management activities are integrated with other lines of business.</p>
-<p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> Teams working on performance collaborate regularly with business and program managers.</p>
-<p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> Leaders talk about performance management as a way to drive results, not just meet a legal requirement.</p>
-<p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> People at the HQ level and people at the Component level follow the same or very similar performance management processes.</p>
-<p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> We have performance experts that we can ask for advice or assistance.</p>
-	<p> </p><br>
-
-	<p>2.  <strong>Results-Oriented Candor &amp; Transparency</strong></p>
-
-	<p><em>What are we aiming for?</em></p>
-<p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We are encouraged to speak up when we have ideas about what should change.</p>
- <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>Anyone internal or external to our organization could ask for and/or provide feedback about how a mission area is performing.</p>
- <p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>Anyone internal or external to our organization could easily find performance and organization data.</p>
-<p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>Leaders consistently talk about progress, results, and opportunities to get better.</p>
-<p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We like to share information with one another.</p>
-	<p> </p><br>
-
-	<p>3.  <strong>Healthy Attitude Towards Risk</strong></p>
-
-	<p><em>What are we aiming for?</em></p>
-<p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We set goals that we know may be a challenge to achieve.</p>
-<p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> We have some flexibility in our plans, assessments, and decision-making to account for possible failures.</p>
-<p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> We talk about how it is “safe to fail."</p>
-<p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> Leaders protect people who take acceptable risks.</p><p>
-</p><p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> We have clear guidelines about what is and isn’t considered an acceptable risk.</p>
-<p> </p><br>
-
-	<p>4. <strong>Positive Ownership &amp; Accountability for Results</strong></p>
-
-	<p><em>What are we aiming for?</em></p>
-<p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>Results are included in our job descriptions.</p>
-<p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>Anyone at our organization could identify and explain what they are accountable for.</p>
-<p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We know how our work connects to mission priorities.</p>
-<p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We find ways to improve or advance our delivery methods.</p>
-<p><span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span> Leaders take responsibility for achieving performance outcomes.</p>
-<p> </p><br>
-
-	<p>5. <strong>Stakeholder &amp; Customer Oriented</strong></p>
-
-	<p><em>What are we aiming for? </em></p>
-<p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We can receive or easily find information about customers.</p>
-<p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We pay attention to customer satisfaction data.</p>
-<p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We design our processes to suit various stakeholders or customer groups.</p>
-<p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>Multiple customer/stakeholder perspectives are included in our decision-making process.</p>
-<p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>Leaders talk about the value of customer and stakeholder needs.</p>
-<p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We see our stakeholders as our partners.</p>
-<p> <span><img src="{{site.baseurl}}/sites/all/themes/pic_omega/images/bullet-sq.svg" style="margin-right:15px;" alt="list-item" title="list-item" /></span>We develop reviews, plans, and reports in coordination with multiple internal and external stakeholders.</p>
-
-
-
-
-</div>
-  </div>
-  <div class="field field--name-field-body field--type-text-long field--label-hidden">
-    <a id="playrules" class="anchor_offset"></a>
-
-<p id="playrules">-------------------------------------------------------</p>
-
-<p><strong>Rules of P3 </strong></p>
-
-<p>The P3 construct is designed to help you gauge where you are and where you need to go in order to drive performance for your mission. It helps you think about your capability strengths, identify gaps and opportunities, and have a discussion about how performance management can help you achieve your goals. It is not a step-wise process or model with a beginning and an end. When using the PIC’s P3 Playbook as a team, or just for yourself, keep in mind these two rules:</p>
-
-<p><strong><em>Not Linear</em></strong></p>
-
-<p>While these practices may feel linear to where you sit in the organization, all of these performance activities are interrelated and interdependent. For example, you may decide to set measures first and then prioritize your goal activities. You may first invest in analytical capabilities which will inform your planning and evaluation. You may begin with a performance improvement, which impacts your implementation and data activities. Anyone and any organization can start with what they have, and leverage these capability strengths to direct, initiate or incorporate other aspects of P3.</p>
-
-<p><strong><em>There isn’t “one right way” </em></strong></p>
-
-<p>How you run, develop, and invest in your P3 plays is totally flexible and up to the culture and skills of your team. Different organizations or teams will have varying degrees of activity in each, with none considered “more successful” than another. For example, we know that there are some organizations that do “data stuff” really well. Those data-oriented organizations can achieve performance results as strong as those organizations that do “goal setting and prioritization” really well. It just depends on how an organization invests in building its performance capabilities. However, to be most effective in achieving and managing the “right” results for your mission, each element of the P3 construct should exist in tandem at your organization, program, or initiative team.</p>
-  </div>
-</div>
-<link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
-    </div>
-
-
-      </div>
-</div>
-</div>
-  </div>
-</div>
-          </div>
-  </div>
-  {% include footer.html %}
-
-  </div>
-  </body>
+      {% include footer.html %}
+   </div>
+</body>
   </html>

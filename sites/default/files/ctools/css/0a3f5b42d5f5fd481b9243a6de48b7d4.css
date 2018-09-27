@@ -12,8 +12,11 @@ body.page-playbook-cio .page-playbook{
     color:#fff;
 }
 .pane-fpid-35{
-    background:rgb(0, 110, 182) none repeat scroll 0 0 !important;
-    color:#fff;
+    background: #fff none repeat scroll 0 0 !important;
+}
+.pane-fpid-34{
+  background: rgb(50, 58, 69) none repeat scroll 0 0 !important;
+  color: #fff;
 }
 .not-front .main__wrapper{
     margin-top:0px !important;
@@ -52,9 +55,44 @@ body.page-playbook-cio .page-playbook{
 .button{
     margin-bottom:25px;
 }
-.page-playbook-cio h3{
+/* .page-playbook-cio h3{
     color:#006eb6 !important;
 }
 .page-playbook-cio .l-main ul li::before{
     color:#006eb6 !important;
+} */
+.col-xs-4{
+    width:31%;
+    float:left;
+    margin-right:1.69492%;
+}
+.pane-fieldable-panels-pane .col-xs-4 h3{
+    text-align:left;
+}
+.col-xs-4 h3.knowing a:link{
+    color:#28628E;
+    font-weight:bold;
+}
+.col-xs-4 h3.deciding a:link {
+    color:#E16740;
+    font-weight:bold;
+}
+.col-xs-4 h3.delivering a:link {
+    color:#F1B828;
+    font-weight:bold;
+}
+.knowing{
+    color:#28628E;
+    font-weight:bold;
+}
+.deciding{
+    color:#E16740;
+    font-weight:bold;
+}
+.delivering{
+    color:#F1B828;
+    font-weight:bold;
+}
+.col-xs-4 ul li a:link {
+  color: #000000;
 }
