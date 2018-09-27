@@ -70,7 +70,7 @@ body.page-playbook-cio .page-playbook{
     text-align:left;
 }
 .col-xs-4 h3.knowing a:link{
-    color:#28628E;
+    color:#1f8fc3;
     font-weight:bold;
 }
 .col-xs-4 h3.deciding a:link {
@@ -82,7 +82,7 @@ body.page-playbook-cio .page-playbook{
     font-weight:bold;
 }
 .knowing{
-    color:#28628E;
+    color:#1f8fc3;
     font-weight:bold;
 }
 .deciding{
@@ -95,4 +95,50 @@ body.page-playbook-cio .page-playbook{
 }
 .col-xs-4 ul li a:link {
   color: #000000;
+}
+.displayDeciding, .subtitleDeciding, .resourceDeciding {
+  color:#E16740 !important;
+}
+.displayDelivering, .subtitleDelivering, .resourceDelivering {
+  color:#F1B828 !important;
+}
+.displayKnowing, .subtitleKnowing, .resourceKnowing {
+  color:#1f8fc3 !important;
+}
+.resourceDecidingBorder, .resourceDeliveringBorder, .resourceKnowingBorder {
+  padding: 10px 15px;
+}
+.resourceDecidingBorder {
+  border: 1px solid #E16740;
+}
+.resourceDeliveringBorder {
+  border: 1px solid #F1B828;
+}
+.resourceKnowingBorder {
+  border: 1px solid #1f8fc3;
+}
+.resourceDeciding {
+  text-transform: uppercase;
+}
+.resourceDelivering {
+  text-transform: uppercase;
+}
+.resourceKnowing {
+  text-transform: uppercase;
+}
+#middle p, #middle ul li, #middle h3, #middle a,
+#middle #resource .resourceDeciding, #middle #resource .resourceDelivering,
+#middle #resource .resourceKnowing {
+  color: white !important;
+}
+#resource {
+  text-align: center;
+}
+@media (min-width: 980px) {
+.pic-p3{
+margin-top: 5px; height: 250px; margin-left: 25px;z-index:9;
+}
+}
+@media (max-width: 979px) {
+.pic-p3{height:200px; clear:both;float:right;}
 }

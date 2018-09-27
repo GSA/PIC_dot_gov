@@ -140,3 +140,7 @@ h2.large{
 .plan-resources a, .plan-resources li a{
     color:#000;
 }
+.achieve-resources {
+    border: 1px solid #F1B828;
+    padding: 10px 15px;
+}
