@@ -69,7 +69,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 3.8.1)
+  jekyll (>= 3.8.4)
   jekyll-feed (~> 0.6)
   jekyll-redirect-from
   jekyll-sitemap
