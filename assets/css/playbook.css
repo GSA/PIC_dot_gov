@@ -161,3 +161,8 @@ height:400px;
 #results, #risk, #accountability, #checklist, #stakeholder {
   margin-left: 25%;
 }
+
+.resource3 {
+  border: 1px solid;
+  box-sizing: border-box;
+}
