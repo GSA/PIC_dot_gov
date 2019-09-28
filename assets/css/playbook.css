@@ -157,3 +157,7 @@ height:400px;
 .results, .risk, .accountability, .checklist, .stakeholder {
   margin-left: 20%;
 }
+
+#results, #risk, #accountability, #checklist, #stakeholder {
+  margin-left: 25%;
+}
