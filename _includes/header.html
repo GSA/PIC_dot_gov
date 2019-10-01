@@ -13,10 +13,10 @@
     <a href="{{site.baseurl}}/what-we-do/mission" title="What We Do menu links to the middle of home page and highlights goals and mission." class="active-trail active">What We Do</a>
     <ul class="menu">
       <li class="first leaf active-trail active menu-mlid-526">
-        <a href="{{site.baseurl}}/what-we-do/mission" title="link to statement of mission" class="active-trail active">Our Mission</a>
+        <a href="{{site.baseurl}}/what-we-do/mission" title="link to statement of mission" class="active-trail active">Mission</a>
       </li>
       <li class="last leaf has-children menu-mlid-308">
-        <a href="{{site.baseurl}}/what-we-do/mission/#objectives" title="Our Work">Our Objectives</a>
+        <a href="{{site.baseurl}}/content/cross-agency-engagements" title="Our Work">Our Priorities</a>
       </li>
     </ul>
   </li>
@@ -25,28 +25,22 @@
     <a href="{{site.baseurl}}/what-we-do/mission" title="What We Do menu links to the middle of home page and highlights goals and mission.">What We Do</a>
     <ul class="menu">
       <li class="first leaf menu-mlid-526">
-        <a href="{{site.baseurl}}/what-we-do/mission" title="link to statement of mission">Our Mission</a>
+        <a href="{{site.baseurl}}/what-we-do/mission" title="link to statement of mission">Mission</a>
       </li>
       <li class="last leaf has-children menu-mlid-308">
-        <a href="{{site.baseurl}}/what-we-do/mission/#objectives" title="Our Work">Our Objectives</a>
+        <a href="{{site.baseurl}}/content/cross-agency-engagements" title="Our Work">Our Priorities</a>
       </li>
     </ul>
   </li>
   {% endif %}
 <li class="expanded main-menu--top"><a href="{{site.baseurl}}/who-we-are/the-council" >Who We Are</a><ul class="menu"><li class="first leaf menu-mlid-438"><a href="{{site.baseurl}}/who-we-are/the-council" title="The Council">The Council</a></li>
-  <li class="leaf menu-mlid-770"><a href="{{site.baseurl}}/who-we-are/the-council/#role" title="Members of the Performance Improvement Council">Role of the PIO</a></li>
-  <li class="leaf menu-mlid-770"><a href="{{site.baseurl}}/pio-staff" title="Members of the Performance Improvement Council">Members of the Performance Improvement Council</a></li>
-  <li class="last leaf menu-mlid-527"><a href="{{site.baseurl}}/who-we-are/the-council/#key" title="The Community">Key Partners</a></li>
+<li class="leaf menu-mlid-770"><a href="{{site.baseurl}}/pio-staff" title="Members of the Performance Improvement Council">Members of the Performance Improvement Council</a></li>
+<li class="last leaf menu-mlid-527"><a href="{{site.baseurl}}/who-we-are/the-community" title="The Community">Key Partners</a></li>
 </ul></li>
-
-<li class="expanded menu-mlid-303 main-menu--top"><a href="{{site.baseurl}}/pic-resources" title="Resources">Resources</a>
-
-  <ul class="menu">
-    <li class="leaf menu-mlid-7703"><a href="{{site.baseurl}}/blog" title="Blog">Community Perspectives</a></li>
-  </ul>
-
-</li>
-
+{% if page.layout == 'blog' %}<li class="expanded active-trail active menu-mlid-303 main-menu--top"><a href="{{site.baseurl}}/blog" title="Blog" class="active-trail">Blog</a><ul class="menu"><li class="first last leaf has-children active-trail menu-mlid-753"><a href="{{site.baseurl}}/blog" title="Blog" class="active-trail">Blog</a></li>
+{% else %} <li class="expanded menu-mlid-303 main-menu--top"><a href="{{site.baseurl}}/blog" title="Blog" class="">Blog</a><ul class="menu"><li class="first last leaf has-children menu-mlid-753"><a href="{{site.baseurl}}/blog" title="Blog" class="">Blog</a></li>
+{% endif %}</ul></li>
+<li class="last leaf menu-mlid-1912"><a href="{{site.baseurl}}/pic-resources" title="">Resources</a></li>
 </ul></nav>
   </div>
       <div class="l-region l-region--header">

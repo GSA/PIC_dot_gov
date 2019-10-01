@@ -73,7 +73,8 @@
 .page-who-we-are .field--name-field-body{	
 	width: 83.05%;
     float: none;
-  
+    margin-left: auto;
+    margin-right: auto;
 	}
 .page-who-we-are-the-community .pane-fpid-29 {
     background: #efefef url(/sites/all/themes/pic_omega/images/community_compressed.jpg);
@@ -99,7 +100,7 @@
     position: relative;
     max-width: 75em; 
     padding: 20px 20px 0;
-    
+    margin: auto;
 }
 #main > div > div.view-header > article > div > div.pane-content > div > div p{
 text-align : center !important;
@@ -115,7 +116,7 @@ text-align : center !important;
     left: 0;
     height: 1px;
     width: 35px;
-
+    margin: auto;
     border-bottom: 1px solid white;
 }
 
@@ -133,7 +134,8 @@ top:0px;
 .pane-fieldable-panels-pane .resource-pane{
     width: 100%;
     float: left;
-
+    margin-left: 0;
+    margin-right: 0;
     padding: 60px 0 80px 0;
 }
 .panel-pane.pane-fieldable-panels-pane.resource-pane {
@@ -152,8 +154,4 @@ height:400px;
 .achieve-resources {
     border: 1px solid #F1B828;
     padding: 10px 15px;
-}
-
-.results, .risk, .accountability, .checklist, .stakeholder {
-  margin-left: 20%;
 }

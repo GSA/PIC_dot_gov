@@ -58,13 +58,13 @@ permalink: /blog/
                            <li class="last leaf menu-mlid-527"><a href="{{site.baseurl}}/who-we-are/the-community" title="The Community">Key Partners</a></li>
                         </ul>
                      </li>
-                       <li class="expanded active-trail active menu-mlid-303 main-menu--top"><a href="{{site.baseurl}}/pic-resources" title="Resources">Resources</a>
-
-                         <ul class="menu">
-                           <li class="leaf menu-mlid-7703"><a href="{{site.baseurl}}/blog" title="Blog">Community Perspectives</a></li>
-                         </ul>
-
-                       </li>
+                     <li class="expanded active-trail active menu-mlid-303 main-menu--top">
+                        <a href="{{site.baseurl}}/blog" title="Blog" class="active-trail active">Blog</a>
+                        <ul class="menu">
+                           <li class="first last leaf active-trail active menu-mlid-753"><a href="{{site.baseurl}}/blog" title="Blog" class="active-trail active">Blog</a></li>
+                        </ul>
+                     </li>
+                     <li class="last leaf menu-mlid-1912"><a href="{{site.baseurl}}/pic-resources" title="">Resources</a></li>
                   </ul>
                </nav>
             </div>
@@ -92,7 +92,7 @@ permalink: /blog/
       <div class="main__wrapper">
          <div id="main" class="l-main">
             <a id="main-content"></a>
-            <h1>Community Perspectives</h1>
+            <h1>Blog List</h1>
             <div class="view view-blog-list view-id-blog_list view-display-id-page view-dom-id-e6f7e827f0d533b2a347674dcaad44c0">
 
 
@@ -114,19 +114,35 @@ permalink: /blog/
                      <!--<div>{{posts.url}} evens </div>-->
                   {% endif %}
                   <article about="{{posts.permalink}}" typeof="sioc:Item foaf:Document" role="article" class="node node--blog node-teaser view-mode-teaser node--teaser node--blog--teaser">
-                  <!-- <div class="node--blog--date-group">
+                     <div class="node--blog--date-group">
                         <h4 class="day">
                            {{posts.day}}
                         </h4>
                         <h4 class="month">
                            {{posts.month}}
                         </h4>
-                     </div>-->
+                     </div>
                      <div class="node--blog--main-group">
+                        {% if posts.above %}
+                        {% if posts.above contains 'src' %}
+                        {% assign arr = posts.above | split: 'src=' %}
+                        {% assign burl = site.baseurl | append: posts.imageurl %}
+                        {% assign b = arr[0] | append: 'src=' | append: burl | append: arr[1] %}
+                        <p>{{b}}</p>
+                        {% else%}
                         <p>{{ posts.above }}</p>
+                        {% endif %}
+                        {% endif %}
                         <h2><a href="{{site.baseurl}}{{posts.permalink}}" rel="bookmark">{{posts.title}}</a></h2>
                         {% for p in posts.paragraphs %}
+                           {% if p contains 'src' %}
+                           {% assign arr = p | split: 'src=' %}
+                           {% assign burl = site.baseurl | append: posts.imageurl %}
+                           {% assign b = arr[0] | append: 'src=' | append: burl | append: arr[1] %}
+                           <p>{{b}}</p>
+                           {% else%}
                            <p>{{ p }}</p>
+                           {% endif%}
                         {% endfor %}
                      </div>
                   </article>
