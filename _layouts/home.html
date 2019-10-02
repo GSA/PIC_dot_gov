@@ -56,9 +56,67 @@
 
 <div class="l-page">
 
+  <div class="header__wrapper">
+      <header class="l-header" role="banner">
+        <div class="logo">
+          <a href="{{site.baseurl}}/"title="Home" rel="home" class="site-logo">
+            <img typeof="foaf:Image" src="{{site.baseurl}}/sites/all/themes/pic_omega/images/logo.png" alt="Home" />        </a>
+        </div>
+        <div class="l-region l-region--navigation">
+          <nav id="block-menu-block-2" role="navigation" class="block block--menu-block block--menu-block-2">
+
+        <ul class="menu">
+          <li class="first expanded menu-mlid-305 main-menu--top"><a href="{{site.baseurl}}/what-we-do/mission" title="What We Do menu links to the middle of home page and highlights goals and mission.">What We Do</a><ul class="menu"></li>
+          <li class="first leaf menu-mlid-526"><a href="{{site.baseurl}}/what-we-do/mission" title="link to statement of mission">Mission</a></li>
+          <li class="last leaf has-children menu-mlid-308"><a href="{{site.baseurl}}/what-we-do/mission/#objectives" title="Our Work">Our Objectives</a></li>
+      </ul>
+
+      <li class="expanded menu-mlid-305 main-menu--top"><a href="{{site.baseurl}}/who-we-are/the-council" title="Who We Are" class="active-trail active">Who We Are</a>
+          <ul class="menu">
+            <li class="first leaf active-trail active menu-mlid-438"><a href="{{site.baseurl}}/who-we-are/the-council" title="The Council" class="active-trail active">The Council</a></li>
+            <li class="leaf menu-mlid-770"><a href="{{site.baseurl}}/who-we-are/the-council/#role" title="Members of the Performance Improvement Council">Role of the PIO</a></li>
+            <li class="leaf menu-mlid-770"><a href="{{site.baseurl}}/pio-staff" title="Members of the Performance Improvement Council">Members of the Performance Improvement Council</a></li>
+          <li class="last leaf menu-mlid-527"><a href="{{site.baseurl}}/who-we-are/the-council/#key" title="The Community">Key Partners</a></li>
+        </ul>
+      </li>
+
+      <li class="expanded menu-mlid-303 main-menu--top"><a href="{{site.baseurl}}/pic-resources" title="Resources">Resources</a>
+
+        <ul class="menu">
+          <li class="leaf menu-mlid-7703"><a href="{{site.baseurl}}/blog" title="Blog">Community Perspectives</a></li>
+          <li class="leaf menu-mlid-7703"><a href="{{site.baseurl}}/our-services/" title="Blog">Our Services</a></li>
+
+        </ul>
+
+      </li>
 
 
-{% include header.html %}
+      </nav>
+  </div>
+        <div class="l-region l-region--header">
+    <div class="main-menu-toggle">
+      <a href="#block-menu-block-2"><i class="fa fa-2x fa-bars">nav-menu</i></a>
+    </div>
+    <div>
+
+      <div id="block-search-form" role="search" class="block block--search block--search-form">
+          <div class="block__content">
+            <form id="search_form" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
+              <input name="utf8" type="hidden" value="✓">
+              <input type="hidden" name="affiliate" id="affiliate" value="pic-federalist">
+              <input type="text" name="query" id="query" autocomplete="off" class="usagov-search-autocomplete ui-autocomplete-input form-text">
+              <input type="submit" name="commit" value="Search" class="form-submit">
+            </form>
+          </div>
+      </div>
+
+    </div>
+  </div>
+      </header>
+    </div>
+
+
+
   <div class="main__wrapper">
     <div id="main" class="l-main">
       <a id="main-content"></a>
