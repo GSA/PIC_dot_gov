@@ -1,9 +1,9 @@
 ---
-layout: content
+layout: bio
 title: Chad Clifford
 url: chad-clifford
 image: dhs.png
-permalink: chad-clifford/
+permalink: /whldp/chad-clifford/
 meta: ""
 metaname: description
 agency: Department of Homeland Security
