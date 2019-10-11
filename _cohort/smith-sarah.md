@@ -1,13 +1,14 @@
 ---
 layout: bio
-title: Anthony Garza
-url: anthony-garza
-image: garza.jpg
-permalink: /whldp/anthony-garza/
+title: Sarah B. Smith
+url: sarah-smith
+image: smith.jpg
+permalink: /whldp/sarah-smith/
 meta: ""
 metaname: description
 agency: Department of Health and Human Services
-alt: Anthony Garza
+alt: Sarah B. Smith headshot
+
 ---
 
 Official biography coming soon.

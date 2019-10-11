@@ -2,7 +2,7 @@
 layout: bio
 title: Anna Lissa Ramachandran
 url: anna-lissa-amachandran
-image: treasury.png
+image: ramachandran.jpg
 permalink: /whldp/anna-lissa-amachandran/
 meta: ""
 metaname: description

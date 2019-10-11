@@ -1,13 +1,13 @@
 ---
 layout: bio
-title: Anthony Garza
-url: anthony-garza
-image: garza.jpg
-permalink: /whldp/anthony-garza/
+title: Cheryl	Ford
+url: cheryl-ford
+image: ford.jpg
+permalink: /whldp/cheryl-ford/
 meta: ""
 metaname: description
 agency: Department of Health and Human Services
-alt: Anthony Garza
+alt: Cheryl	Ford headshot
 ---
 
 Official biography coming soon.

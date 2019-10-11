@@ -2,7 +2,7 @@
 layout: bio
 title: Chad Clifford
 url: chad-clifford
-image: dhs.png
+image: clifford.jpg
 permalink: /whldp/chad-clifford/
 meta: ""
 metaname: description
