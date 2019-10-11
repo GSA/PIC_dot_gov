@@ -199,103 +199,46 @@ jQuery(window).load(function() {
   padding: 0 25px;
   position: relative;
 }
-</style>    </div>
+
+.round {
+  border-radius: 90px;
+  object-fit: cover;
+  width: 180px;
+  height: 180px;
+  }
+
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+</style>
+
+<center>
+
+  <div class="grid-container">
+
+            {% for cohorts in site.cohort %}
+          <div class="grid-item">
+              <a href="{{site.baseurl}}{{cohorts.permalink}}"><img class="round" src="{{site.baseurl}}/assets/images/2019-cohort/{{ cohorts.image }}" alt="{{ cohorts.alt }}" /></a>
+              <h4><a href="{{site.baseurl}}{{cohorts.permalink}}" rel="bookmark">{{ cohorts.title }}</a></h4>
+              <h5> {{ cohorts.agency }}</h5>
+          </div>
+          {% endfor %}
+      </div>
+    </div>
 
 
-
-<div class="view-content">
-<div class="item-list">
-  <ul class="slides">
-    <li class="views-row views-row-1 views-row-odd views-row-first"><article about="{{site.baseurl}}/content/anselm-beach" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-      <a href="{{site.baseurl}}/content/anselm-beach"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/anselm-beach.png" width="180" height="180" alt="Anselm Beach Photo" title="Anselm Beach Photo" /></a>
-      <h4><a href="{{site.baseurl}}/content/anselm-beach" rel="bookmark">Anselm Beach</a></h4>
-      <h5> Department of Homeland Security</h5>
-      </article>
-    </li>
-  <li class="views-row views-row-2 views-row-even"><article about="{{site.baseurl}}/content/sabrina-ferguson-ward" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-    <a href="{{site.baseurl}}/content/michelle-dorsey"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/michelle-dorsey.png" width="180" height="180" alt="Photo of Dr. Michelle Dorsey d" title="Photo of Dr. Michelle Dorsey " /></a>
-    <h4><a href="{{site.baseurl}}/content/michelle-dorsey" rel="bookmark">Dr. Michelle Dorsey </a></h4>
-    <h5>Department of Veterans Affairs</h5>
-   </article>
-  </li>
-  <li class="views-row views-row-3 views-row-odd"><article about="{{site.baseurl}}/content/nicoletta-giordani" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-    <a href="{{site.baseurl}}/content/nicoletta-giordani"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/nicolette-giordani.png" width="180" height="180" alt="Photo of nicoletta giordani" title="Photo of nicoletta giordani" /></a>    <h4><a href="{{site.baseurl}}/content/nicoletta-giordani" rel="bookmark">Nicoletta Giordani</a></h4>
-    <h5>Office of Management and Budget</h5>            </article>
-</li>
-  <li class="views-row views-row-4 views-row-even"><article about="{{site.baseurl}}/content/helena-fu" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-    <a href="{{site.baseurl}}/content/helena-fu"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/helena-fu.jpg" width="180" height="180" alt="Photo of Helena Fu" title="Photo of Helena Fu" /></a>    <h4><a href="{{site.baseurl}}/content/helena-fu" rel="bookmark">Helena Fu</a></h4>
-    <h5>Department of Energy</h5>            </article>
-</li>
-  <li class="views-row views-row-5 views-row-odd"><article about="{{site.baseurl}}/content/tamara-hamaty" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-    <a href="{{site.baseurl}}/content/tamara-hamaty"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/tamara-haraty.png" width="180" height="180" alt="Photo of tamara hamaty" title="Photo of tamara hamaty" /></a>    <h4><a href="{{site.baseurl}}/content/tamara-hamaty" rel="bookmark">Tamara S. Hamaty</a></h4>
-    <h5>Department of Health and Human Services</h5>            </article>
-</li>
-  <li class="views-row views-row-6 views-row-even"><article about="{{site.baseurl}}/content/robert-hankinson" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-    <a href="{{site.baseurl}}/content/robert-hankinson"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/robert-hankinson.jpg" width="180" height="180" alt="Photo of Robert Hankinson" title="Photo of Robert Hankinson" /></a>    <h4><a href="{{site.baseurl}}/content/robert-hankinson" rel="bookmark">Robert Hankinson</a></h4>
-    <h5>Department of State </h5>            </article>
-</li>
-  <li class="views-row views-row-7 views-row-odd"><article about="{{site.baseurl}}/content/jay-huie" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-    <a href="{{site.baseurl}}/content/jay-huie"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/jay-huie.jpg" width="180" height="180" alt="Photo of Jay Huie" title="Photo of Jay Huie" /></a>    <h4><a href="{{site.baseurl}}/content/jay-huie" rel="bookmark">Jay Huie</a></h4>
-    <h5>General Services Administration</h5>            </article>
-</li>
-  <li class="views-row views-row-8 views-row-even"><article about="{{site.baseurl}}/content/leila-jackson" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-    <a href="{{site.baseurl}}/content/leila-jackson"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/leila-jackson.jpg" width="180" height="180" alt="Photo of Lelia Jackson" title="Photo of Lelia Jackson" /></a>    <h4><a href="{{site.baseurl}}/content/leila-jackson" rel="bookmark">Lelia Jackson
-</a></h4>
-    <h5> Department of Veterans Affairs</h5>            </article>
-</li>
-  <li class="views-row views-row-9 views-row-odd"><article about="{{site.baseurl}}/content/bradley-jewitt " typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-    <a href="{{site.baseurl}}/content/bradley-jewitt"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/bradley-jewitt.jpg" width="180" height="180" alt="Photo of Bradley Jewitt" title="Photo of Bradley Jewitt" /></a>    <h4><a href="{{site.baseurl}}/content/bradley-jewitt" rel="bookmark">Bradley Jewitt </a></h4>
-    <h5> National Aeronautics and Space Administration</h5>            </article>
-</li>
-  <li class="views-row views-row-10 views-row-even"><article about="{{site.baseurl}}/content/yaro-kulchyckyj" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-    <a href="{{site.baseurl}}/content/yaro-kulchyckyj"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/yaro-kulchyckyj.jpg" width="180" height="180" alt="Photo of Yaro T. Kulchyckyj " title="Photo of Yaro T. Kulchyckyj " /></a>    <h4><a href="{{site.baseurl}}/content/yaro-kulchyckyj" rel="bookmark">Yaro T. Kulchyckyj </a></h4>
-    <h5>Department of State</h5>            </article>
-</li>
-  <li class="views-row views-row-11 views-row-odd"><article about="{{site.baseurl}}/content/jeannette-connor" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-    <a href="{{site.baseurl}}/content/jeannette-connor"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/jeannette-connor.jpg" width="180" height="180" alt="Photo of Jeannette Mandycz Connor" title="Photo of Jeannette Mandycz Connor" /></a>    <h4><a href="{{site.baseurl}}/content/jeannette-connor" rel="bookmark">Jeannette Mandycz Connor</a></h4>
-    <h5>Social Security Administration</h5>            </article>
-</li>
-  <li class="views-row views-row-12 views-row-even"><article about="{{site.baseurl}}/content/salim-mawani" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-    <a href="{{site.baseurl}}/content/salim-mawani"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/salim-mawani.jpg" width="180" height="180" alt="Photo of Salim R. Mawani" title="Photo of Salim R. Mawani" /></a>    <h4><a href="{{site.baseurl}}/content/salim-mawani" rel="bookmark">Salim R. Mawani, CPA, CGFM</a></h4>
-    <h5>Department of Transportation</h5>            </article>
-</li>
-  <li class="views-row views-row-13 views-row-odd"><article about="{{site.baseurl}}/content/clifford-mccoy" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-    <a href="{{site.baseurl}}/content/clifford-mccoy"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/clifford-mccoy.jpg" width="180" height="180" alt="Photo of Clifford McCoy" title="Photo of Clifford McCoy" /></a>    <h4><a href="{{site.baseurl}}/content/clifford-mccoy" rel="bookmark">Clifford McCoy</a></h4>
-    <h5>Transportation Security Administration</h5>            </article>
-</li>
-
-<li class="views-row views-row-14 views-row-odd"><article about="{{site.baseurl}}/content/gloria-perry" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-  <a href="{{site.baseurl}}/content/gloria-perry"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/gloria-perry.jpg" width="180" height="180" alt="Photo of Gloria J. Perry" title="Photo of Gloria J. Perry" /></a>    <h4><a href="{{site.baseurl}}/content/gloria-perry" rel="bookmark">Gloria J. Perry PMP</a></h4>
-  <h5>Department of Defense</h5>            </article>
-</li>
-
-
-
-<li class="views-row views-row-15 views-row-even views-row-last"><article about="{{site.baseurl}}/content/richard-skokowski" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-  <a href="{{site.baseurl}}/content/richard-skokowski"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/richard-skokowski.jpg" width="180" height="180" alt="Photo of Richard A. Skokowski" title="Photo of Richard A. Skokowski" /></a>    <h4><a href="{{site.baseurl}}/content/richard-skokowski" rel="bookmark">Richard A. Skokowski</a></h4>
-  <h5>Nuclear Regulatory Commission</h5>            </article>
-</li>
-
-
-<li class="views-row views-row-16 views-row-even views-row-last"><article about="{{site.baseurl}}/content/kimberly-smith" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-  <a href="{{site.baseurl}}/content/kimberly-smith"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/kimberly-smith.jpg" width="180" height="180" alt="Photo of Kimberly Smith" title="Photo of Kimberly Smith" /></a>    <h4><a href="{{site.baseurl}}/content/kimberly-smith" rel="bookmark">Kimberly Smith</a></h4>
-  <h5>U.S. Agency for International Development</h5>            </article>
-</li>
-
-<li class="views-row views-row-17 views-row-even views-row-last"><article about="{{site.baseurl}}/content/kim-tuminaro" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-  <a href="{{site.baseurl}}/content/kim-tuminaro"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/kim-tuminaro.jpg" width="180" height="180" alt="Photo of Kim Tuminaro" title="Photo of Kim Tuminaro" /></a>    <h4><a href="{{site.baseurl}}/content/kim-tuminaro" rel="bookmark">Kim Tuminaro</a></h4>
-  <h5>Department of State</h5>            </article>
-</li>
-
-
-<li class="views-row views-row-18 views-row-even views-row-last"><article about="{{site.baseurl}}/content/khoa-vo" typeof="sioc:Item foaf:Document" role="article" class="node node--profile node-teaser view-mode-teaser node--teaser node--profile--teaser">
-  <a href="{{site.baseurl}}/content/khoa-vo"><img typeof="foaf:Image" src="{{site.baseurl}}/sites/default/files/styles/profile_headshot__180x180_/public/profile_image/khoa-vo.jpg" width="180" height="180" alt="Photo of Khoa Vo" title="Photo of Khoa Vo" /></a>    <h4><a href="{{site.baseurl}}/content/khoa-vo" rel="bookmark">Khoa Vo</a></h4>
-  <h5> National Aeronautics and Space Administration</h5>            </article>
-</li>
-
-</ul>
 
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+<link rel="stylesheet" href="{{site.baseurl}}/assets/uswds-2.0.3/css/uswds.css">
+
 </div>    </div>
 
 
