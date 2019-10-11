@@ -1,6 +1,6 @@
 ---
 title: WHITE HOUSE LEADERSHIP DEVELOPMENT PROGRAM
-permalink: /whldp/
+permalink: /whldp-2/
 ---
 <!DOCTYPE html>
   <!--[if IEMobile 7]><html class="no-js ie iem7" lang="en" dir="ltr"><![endif]-->
@@ -172,6 +172,22 @@ permalink: /whldp/
   <h2 class="pane-title">Current Cohort</h2>
 
 
+    <div class="pane-content">
+      <div class="view view-cohort-list-slider view-id-cohort_list_slider view-display-id-panel_pane_1 view-dom-id-a2492ba9b7e589d7244b9a7eb2e397e4">
+            <div class="view-header">
+      <script type="text/javascript">
+jQuery(window).load(function() {
+ jQuery('.view-cohort-list-slider .item-list').flexslider({
+          slideshow: false,
+          controlNav: true,
+          animation: 'slide',
+          itemWidth: (window.innerWidth >= 768) ? 250 : 0,
+          minItems: (window.innerWidth >= 768) ? 3 : 1,
+          maxItems: (window.innerWidth >= 768) ? 3 : 0,
+          move: 1
+        });
+    });
+</script>
 <style>
 .pane-profiles-panel-pane-1, .pane-our-staff-home-panel-pane-1, .pane-cohort-list-slider-panel-pane-1 {
   float: left;
@@ -191,30 +207,39 @@ permalink: /whldp/
   height: 180px;
   }
 
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
 </style>
 
 <center>
 
-  <section class="usa-graphic-list padding-top-0" >
-    <div class="grid-container">
-      <div class="usa-graphic-list__row grid-row grid-gap padding-top-0">
-        {% for cohorts in site.cohort %}
-        <div class="grid-col-3 center">
-            <a href="{{site.baseurl}}{{cohorts.permalink}}"><img class="round" src="{{site.baseurl}}/assets/images/2019-cohort/{{ cohorts.image }}" alt="{{ cohorts.alt }}" /></a>
-            <h4><a href="{{site.baseurl}}{{cohorts.permalink}}" rel="bookmark">{{ cohorts.title }}</a></h4>
-            <h5> {{ cohorts.agency }}</h5>
-        </div>
-        {% endfor %}
+  <div class="grid-container">
+
+            {% for cohorts in site.cohort %}
+          <div class="grid-item">
+              <a href="{{site.baseurl}}{{cohorts.permalink}}"><img class="round" src="{{site.baseurl}}/assets/images/2019-cohort/{{ cohorts.image }}" alt="{{ cohorts.alt }}" /></a>
+              <h4><a href="{{site.baseurl}}{{cohorts.permalink}}" rel="bookmark">{{ cohorts.title }}</a></h4>
+              <h5> {{ cohorts.agency }}</h5>
+          </div>
+          {% endfor %}
+      </div>
     </div>
-  </div>
-</section>
 
 
-</div>
-</div>
-<link rel="stylesheet" href="{{site.baseurl}}/assets/uswds-2.0.3/css/uswds.css">
+
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
-</div>
+<link rel="stylesheet" href="{{site.baseurl}}/assets/uswds-2.0.3/css/uswds.css">
+
+</div>    </div>
 
 
 
@@ -224,9 +249,16 @@ permalink: /whldp/
 </div>    </div>
 
 
+      </div>
+</div>
+</div>
+  </div>
+</div>
+          </div>
+  </div>
 
-{% include footer.html %}
+  {% include footer.html %}
 
-
-</body>
-</html>
+  </div>
+  </body>
+  </html>
