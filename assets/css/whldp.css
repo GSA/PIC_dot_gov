@@ -22,7 +22,7 @@
   border-color: #ffffff;
 }
 .pane-fpid-40 .pane-title {
-  background: rgba(0, 0, 0, 0) url("/demo/gsa/pic_dot_gov/sites/all/themes/pic_omega/images/icons/fa-rocket-big.png") no-repeat scroll center top;
+  background: rgba(0, 0, 0, 0) url("../../sites/all/themes/pic_omega/images/icons/fa-rocket-big.png") no-repeat scroll center top;
   display: block;
 }
 .pane-fpid-40 .pane-title {
