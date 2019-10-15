@@ -83,7 +83,6 @@ permalink: /whldp/
     <div id="main" class="l-main">
       <a id="main-content"></a>
 
-
 <div class="panel-display panel-1col clearfix" >
   <div class="panel-panel panel-col">
     <div><div id=fpid-41 class="panel-pane pane-fieldable-panels-pane pane-fpid-41 pane-bundle-fieldable-panels-pane"  class="panel-pane pane-fieldable-panels-pane pane-fpid-41 pane-bundle-fieldable-panels-pane">
@@ -207,32 +206,50 @@ jQuery(window).load(function() {
   height: 180px;
   }
 
-  .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-
-  padding: 10px;
+* {
+  box-sizing: border-box;
 }
-.grid-item {
+main {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+  width: 100%;
+  display: grid;
+  /* Define Auto Row size */
+  grid-auto-rows: 100px;
+  /*Define our columns */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+
+article {
+  border-radius: 10px;
   padding: 20px;
-  text-align: center;
+  color: #fff;
+}
+
+article:nth-child(odd) {
+  background-color: #55BBE9;
+}
+
+article:nth-child(even) {
+  background-color: #afbe29;
 }
 
 </style>
 
 <center>
 
-  <div class="grid-container">
+<main>
 
-            {% for cohorts in site.cohort %}
-          <div class="grid-item">
-              <a href="{{site.baseurl}}{{cohorts.permalink}}"><img class="round" src="{{site.baseurl}}/assets/images/2019-cohort/{{ cohorts.image }}" alt="{{ cohorts.alt }}" /></a>
-              <h4><a href="{{site.baseurl}}{{cohorts.permalink}}" rel="bookmark">{{ cohorts.title }}</a></h4>
-              <h5> {{ cohorts.agency }}</h5>
-          </div>
-          {% endfor %}
-      </div>
-    </div>
+{% for cohorts in site.cohort %}
+<article>
+    <a href="{{site.baseurl}}{{cohorts.permalink}}"><img class="round" src="{{site.baseurl}}/assets/images/2019-cohort/{{ cohorts.image }}" alt="{{ cohorts.alt }}" /></a>
+    <h4><a href="{{site.baseurl}}{{cohorts.permalink}}" rel="bookmark">{{ cohorts.title }}</a></h4>
+    <h5> {{ cohorts.agency }}</h5>
+</article>
+{% endfor %}
+</main>
 
 
 
