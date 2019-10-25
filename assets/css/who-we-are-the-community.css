@@ -1,5 +1,5 @@
 .page-whldp .pane-fieldable-panels-pane:first-child {
-  background: #03528c url("{{site.baseurl}}/sites/all/themes/pic_omega/images/whldp_image_2018.jpg") no-repeat scroll 0px 0px / cover ;
+  background: #03528c url("../../sites/all/themes/pic_omega/images/whldp_image_2020.jpg") no-repeat scroll 0px 0px / cover ;
 }
 .page-whldp .pane-fieldable-panels-pane:first-child h1::before, .page-whldp .pane-fieldable-panels-pane:first-child h2::before {
   border-color: #ffffff;
@@ -20,7 +20,7 @@
   border-color: #ffffff;
 }
 .pane-fpid-40 .pane-title {
-  background: rgba(0, 0, 0, 0) url("{{site.baseurl}}/sites/all/themes/pic_omega/images/icons/fa-rocket-big.png") no-repeat scroll center top;
+  background: rgba(0, 0, 0, 0) url("../../sites/all/themes/pic_omega/images/icons/fa-rocket-big.png") no-repeat scroll center top;
   display: block;
 }
 .pane-fpid-40 .pane-title {
@@ -70,7 +70,7 @@
     font-weight: 400;
     font-size: 1.4em; //changed from 1.6em
     text-align: center; }
-.page-who-we-are .field--name-field-body{	
+.page-who-we-are .field--name-field-body{
 	width: 83.05%;
     float: none;
     margin-left: auto;
@@ -98,7 +98,7 @@
     font-size: 1.4em; //changed from 1.6em }
 .node--goal--full .node__content {
     position: relative;
-    max-width: 75em; 
+    max-width: 75em;
     padding: 20px 20px 0;
     margin: auto;
 }
