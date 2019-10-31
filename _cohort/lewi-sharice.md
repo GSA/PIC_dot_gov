@@ -15,4 +15,4 @@ Sharice Smith-Lewis joins us from the Veterans Health Administration (VHA), Depa
 
 Prior to joining VHA, she served with the National Institutes of Health, Department of Health and Human Services, as well as several years in the private sector healthcare and financial services arenas.
 
-Sharice’s year-long rotation is at the Federal Permitting Improvement Steering Council (FPISC) and is assigned to the [Modernize Infrastructure Permitting CAP Goal](https://www.performance.gov/CAP/permitting/).
+Sharice’s year-long rotation is at the Federal Permitting Improvement Steering Council (FPISC) - Office of the Executive Director where she is assigned to the [Modernize Infrastructure Permitting CAP Goal](https://www.performance.gov/CAP/permitting/).
