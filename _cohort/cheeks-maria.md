@@ -6,7 +6,7 @@ image: cheeks.jpg
 permalink: /whldp/maria-cheeks/
 meta: ""
 metaname: description
-agency: Department of Treasury
+agency: Department of the Treasury
 alt: Maria	Cheeks headshot
 
 ---
