@@ -16,4 +16,4 @@ Maria has leveraged her expertise in strategic planning, analytical research, pr
 
 A graduate of Regis College, Maria holds dual degrees in Communication and French.
 
-At the Office of the Federal Chief Information Officer in the White House Office of Management and Budget, Maria’s focus is on the [Modernize IT CAP Goal](https://www.performance.gov/CAP/it-mod/).
+At the Office of the Federal Chief Information Officer in the White House Office of Management and Budget, Maria’s focus is on the [Shared Quality Services CAP Goal](https://www.performance.gov/CAP/sharing-quality-services/).

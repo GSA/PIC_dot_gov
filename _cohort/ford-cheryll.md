@@ -1,6 +1,6 @@
 ---
 layout: bio
-title: Cheryl	Ford
+title: CAPT Cheryl A. Ford, Dr.P.H.
 url: cheryl-ford
 image: ford.jpg
 permalink: /whldp/cheryl-ford/
