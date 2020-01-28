@@ -16,7 +16,7 @@ Sarah advanced CDC’s emergency response work during the Ebola and Zika respons
 
 Ms. Smith earned her Bachelor of Arts in History and Political Science with a minor in
 Business from Presbyterian College and holds a Master of Public Administration from
-the University of Georgia. She is also a graduate of the Federal Executive Institute
+the University of Georgia. She entered federal service as a Presidential Management Fellow and is a graduate of the Federal Executive Institute
 and Harvard University’s National Preparedness Leadership Institute.
 
 As a WHLDP fellow, Sarah is working on the Office of Management and Budget’s Performance and Personnel Management Team and is assigned to the [Workforce for the 21st Century CAP Goal](https://www.performance.gov/CAP/workforce/).
