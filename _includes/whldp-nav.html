@@ -31,11 +31,21 @@
 
 <div class="l-page">
 
+<style>
 
+  .logo {
+    position:fixed;
+  }
+  
+  @media screen and (max-width:  1200px){
+    .logo { position:relative }  /* show it on small screens */
+  }
+
+</style>
 
 <div class="header__wrapper">
 <header class="l-header" role="banner" style="overflow:hidden;background:#162e51 ">
-  <div class="logo" style="width:116px; margin: 19px 0 0 45px; position:fixed">
+  <div class="logo"  style="width:116px; margin: 19px 0 0 45px; ">
     <a href="{{site.baseurl}}/whldp/ "title="WHLDP Home" rel="home" class="site-logo">
       <img typeof="foaf:Image" src="{{site.baseurl}}/sites/all/themes/pic_omega/images/whldp.png" alt="Home" />        </a>
     </div>
