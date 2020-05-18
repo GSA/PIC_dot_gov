@@ -41,25 +41,35 @@
     .logo { position:relative }  /* show it on small screens */
   }
 
+  @media (min-width: 60em) {
+.l-header .block--menu-block-2 a {
+    display: block;
+    height: 80px;
+    padding: 20px 20px;
+    color: #ffffff;
+    font-size: 1.6em;
+    font-weight: 400;
+    text-transform: uppercase; }}
+
 </style>
 
 <div class="header__wrapper">
 <header class="l-header" role="banner" style="overflow:hidden;background:#162e51 ">
-  <div class="logo"  style="width:116px; margin: 19px 0 0 45px; ">
+  <div class="logo"  style="width:116px; margin: 19px 10px 0 45px; ">
     <a href="{{site.baseurl}}/whldp/ "title="WHLDP Home" rel="home" class="site-logo">
       <img typeof="foaf:Image" src="{{site.baseurl}}/sites/all/themes/pic_omega/images/whldp.png" alt="Home" />        </a>
     </div>
     <div class="l-region l-region--navigation">
-    <nav id="block-menu-block-2" role="navigation" class="block block--menu-block block--menu-block-2" style="font-size:40px;">
+    <nav id="block-menu-block-2" role="navigation" class="block block--menu-block block--menu-block-2" style="font-size:30px;padding">
 
-  <ul class="menu">
+  <ul class="menu" style="padding-top:6px;">
 
-    <li class="first expanded menu-mlid-305 main-menu--top"><a style="font-size:23px;" href="{{site.baseurl}}/whldp/" title="WHDLP Experience">Overview</a> </li>
-    <li class=" expanded menu-mlid-305 main-menu--top"><a style="font-size:23px;" href="{{site.baseurl}}/whldp/experience/" title="WHDLP Experience">Experience</a> </li>
+    <li class="first expanded menu-mlid-305 main-menu--top"><a style="font-size:19px;" href="{{site.baseurl}}/whldp/" title="WHDLP Experience">Overview</a> </li>
+    <li class=" expanded menu-mlid-305 main-menu--top"><a style="font-size:19px;" href="{{site.baseurl}}/whldp/experience/" title="WHDLP Experience">Experience</a> </li>
 
-    <li class="expanded menu-mlid-437 main-menu--top"><a style="font-size:23px;" href="{{site.baseurl}}/whldp/nomination/" title="WHLDP Nomination Process">Nomination</a></li>
-    <li class="expanded menu-mlid-303 main-menu--top"><a style="font-size:23px;" href="{{site.baseurl}}/whldp/alumni/" title="Alumni page">Alumni</a></li>
-    <li class="last leaf menu-mlid-1912"><a style="font-size:23px;" href="{{site.baseurl}}/whldp/contact/" title="">Contact</a></li>
+    <li class="expanded menu-mlid-437 main-menu--top"><a style="font-size:19px;" href="{{site.baseurl}}/whldp/nomination/" title="WHLDP Nomination Process">Nomination</a></li>
+    <li class="expanded menu-mlid-303 main-menu--top"><a style="font-size:19px;" href="{{site.baseurl}}/whldp/alumni/" title="Alumni page">Alumni</a></li>
+    <li class="last leaf menu-mlid-1912"><a style="font-size:19px;" href="{{site.baseurl}}/whldp/contact/" title="">Contact</a></li>
 
 </ul>
 
