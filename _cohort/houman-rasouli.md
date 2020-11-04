@@ -1,19 +1,19 @@
 ---
 layout: bio
-title: Houman	Rasouli
-url: houman-rasouli
-image: rasouli.jpg
-permalink: /whldp/houman-rasouli/
+title: David M. Gratz
+taglines: Supervising attorney with expertise in Veterans’ law 
+url: david-m-gratz
+image: david-m-gratz.png
+permalink: /whldp/david-m-gratz/
 meta: ""
 metaname: description
-agency: Nuclear Regulatory Commission
-alt: Houman	Rasouli headshot
+agency: Department of Veterans Affairs
+alt: David M. Gratz
 
 ---
 
-Houman Rasouli is a results-driven executive with more than 25 years of leading private and public organizations to build agile, high functioning, and trusting environments, where everyone can thrive and achieve their full potential. He is a dedicated public servant with expertise in using technology solutions to improve everyday challenges. He is currently with the U.S. Nuclear Regulatory Commission (NRC), serving as a Director
-in the Office of Administration, overseeing the financial, IT, human resources, and management directives programs.
-
-Prior to that, he served as the NRC’s Deputy Performance Improvement Officer and Deputy Assistant for Operations, where he oversaw the agency’s enterprise risk and performance management activities. Mr. Rasouli also served as the Chief for the Information Management and Investment and Program Management Branches, overseeing the agency's records, Web, collaboration, document management, IT governance, and investment efforts. Before joining the Federal Government, Mr. Rasouli held positions in the private sector overseeing the design and rollout of mobile and satellite communication solutions throughout the United States.
-
-During his WHLDP service, Mr. Rasouli will be directing the initiatives for the [GEAR (Government Effectiveness Advance Research) Center](https://www.performance.gov/GEARcenter/index.html). Mr. Rasouli holds a Bachelor of Science degree in mathematics and statistics and a Master of Business Administration degree. Mr. Rasouli is a recipient of the 2019 Meritorious Service Award.
+<p>Mr. Gratz is a Supervisory Senior Counsel with the Board of Veterans&rsquo; Appeals (BVA) in the Department of Veterans Affairs (VA), where he leads a team of 40 attorneys in drafting appellate decisions to ensure Veterans receive the full benefits they have earned.&nbsp;</p>
+<p>As a subject matter expert in Veterans&rsquo; law, Mr. Gratz has trained hundreds of BVA attorneys in key topics including service connection, increased ratings, and the evaluation of evidence based on competence, credibility, and probative value. Mr. Gratz has adjudicated hundreds of cases as an Acting Veterans Law Judge.&nbsp;</p>
+<p>Mr. Gratz co-authored the charter for the BVA Diversity and Inclusion Committee, evaluated employee recommendations as a member of the BVA Employee Survey Results Task Force, and advised on graphical user interface design as a member of the BVA Appeals Modernization Task Force. Before joining the VA, Mr. Gratz served as legislative correspondent to Congressman Steny Hoyer (MD-05).&nbsp;</p>
+<p>Mr. Gratz earned his B.A. from Franklin and Marshall College (cum laude, Phi Betta Kappa), and his J.D. from Northeastern University School of Law.</p>
+<p><br />As a White House Leadership Development Fellow, Mr. Gratz works in the Office of Management and Budget (OMB) in the Office of Performance and Personnel Management, specializing in <a href="https://www.performance.gov/CAP/cx/">customer experience</a>.</p>

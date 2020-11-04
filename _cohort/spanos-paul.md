@@ -1,18 +1,17 @@
 ---
 layout: bio
-title: Paul	Spanos
-url: paul-spanos
-image: spanos.jpg
-permalink: /whldp/paul-spanos/
+title: Scott Jackson 
+taglines: Public servant focused on building better government
+url: scott-jackson 
+image: scott-jackson.png
+permalink: /whldp/scott-jackson/
 meta: ""
 metaname: description
-agency: Department of Labor
-alt: Paul	Spanos headshot
+agency: Department of Defense
+alt: Scott Jackson headshot
 
 ---
 
-Paul Spanos is a senior trial attorney with the U.S. Department of Labor, Office of the Solicitor, in Boston, Massachusetts. He advises DOL agencies regarding critical labor and employment law concerns, and prosecutes employers in lawsuits, protecting workers from safety and health hazards, minimum wage and overtime pay violations, and mismanagement or theft of retirement and welfare benefits. Mr. Spanos litigated high profile cases in Cleveland, Ohio Solicitor’s Office for 17 years before joining the Boston office in 2017. He has championed the DOL’s mission of protecting the labor rights of American workers by trying over 50 cases to winning verdicts and mentoring other rising colleagues, as a preeminent government litigator and lauded oral advocate.
-
-Mr. Spanos was recently awarded the American Bar Association’s government fellowship for occupational safety and health law. Over the last 10 years, he has also served as an instructor with the National Institute for Trial Advocacy in Denver, Colorado, teaching other attorneys the art of trial practice. He earned his B.A. in History from Cleveland State University, and a juris doctorate from Case Western Reserve University School of Law. In his new role as a White House Leadership Fellow, he intends to bring his unique perspective and intellectual energy to improving America’s infrastructure.
-
-Paul’s year-long rotation is at the Federal Permitting Improvement Steering Council (FPISC) and is assigned to the [Modernize Infrastructure Permitting CAP Goal](https://www.performance.gov/CAP/permitting/).
+<p>Mr. Jackson joined the federal government in 2005 as a Presidential Management Fellow where he worked on an effort to significantly change the trajectory of biomedical and behavioral research. In his role as Associate Director of the National Institutes of Health (NIH) Common Fund, he oversees the management and operations of a $650M annual budget that supports some of the most innovative programs at the NIH. He creates policies and systems for, and manages the talented teams that oversee, business operations (e.g., grants, contracts, IT, and budget), administration (e.g., workforce management and performance, property, and facilities), communications (e.g., web and social media, outreach strategy, and customer relations), and evaluation (e.g., strategic planning, and process/outcome assessments). When the COVID-19 pandemic began, Mr. Jackson took an additional role in the NIH Immediate Office of the Director to help launch initiatives focused on speeding the development of, and researching unequal access to, new COVID-19 tests and diagnostics.</p>
+<p>Before joining the federal government, Mr. Jackson received his B.S. in Industrial and Systems Engineering at Georgia Tech and his MPA at the University of Georgia. He also ran an AmeriCorps program at Hands On Atlanta for three years and worked for a poverty research initiative at the Carl Vinson Institute of Government for two years.&nbsp;</p>
+<p>As a WHLDP Fellow, Mr. Jackson is working on the Office of Management and Budget&rsquo;s Performance and Personnel Team where he is assigned to support the multi-agency Strategic Planning Working Group and <a href="https://www.performance.gov/CAP/low-value-to-high-value-work/">CAP Goal 6: Shifting from Low-Value to High-Value Work</a>.</p>
