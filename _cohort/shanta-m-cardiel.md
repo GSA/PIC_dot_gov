@@ -2,9 +2,9 @@
 layout: bio
 title: Shantá M. Cardiel
 taglines: Leader in federal workspace management
-url: shantá-m-cardiel
-image: shantá-m-cardiel.jpg
-permalink: /whldp/shantá-m-cardiel/
+url: shanta-m-cardiel
+image: shanta-m-cardiel.jpg
+permalink: /whldp/shanta-m-cardiel/
 meta: ""
 metaname: description
 agency: General Services Administration
