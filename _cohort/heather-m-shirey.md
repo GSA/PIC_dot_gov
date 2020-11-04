@@ -4,7 +4,7 @@ title: Heather M. Shirey
 taglines: Innovative engineer, scientist, and technical advisor who collaborates globally to solve problems
 url: heather-m-shirey 
 image: heather-m-shirey.png
-permalink: /whldp/scott-jackson/
+permalink: /whldp/heather-m-shirey/
 meta: ""
 metaname: description
 agency: Department of Defense
