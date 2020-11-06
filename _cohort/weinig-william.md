@@ -1,6 +1,6 @@
 ---
 layout: bio
-title: Mr. William J. Weinig
+title: William J. Weinig
 taglines: Government leader with broad experience managing teams in acquisition environments 
 url: william-j-weinig
 image: william-j-weinig.png
